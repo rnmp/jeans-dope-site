@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: neue-haas-grotesk-display;
+  font-weight: 600;
+  font-style: normal;
+  padding: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ol, ul {
+  margin-bottom: 1rem;
+}
+
+.font-size-lead {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+[contenteditable]::focus {
+  outline: none;
+}
