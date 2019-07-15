@@ -15,45 +15,31 @@ layout: default
   Feel free to reach out: woj.jean@gmail.com
 </p>
 
-<div class="font-editor-controls">
-  <label for="font-editor-1-alignment-left">
-    <input
-      type="radio"
-      id="font-editor-1-alignment-left"
-      name="font-editor-1-alignment"
-      class="font-editor-alignment"
-      value="left"
-      data-target="font-editor-1"
-      checked
-    />
-    Left
-  </label>
-  <label for="font-editor-1-alignment-center">
-    <input
-      type="radio"
-      id="font-editor-1-alignment-center"
-      name="font-editor-1-alignment"
-      class="font-editor-alignment"
-      value="center"
-      data-target="font-editor-1"
-    />
-    Center
-  </label>
-  <label for="font-editor-1-alignment-right">
-    <input
-      type="radio"
-      id="font-editor-1-alignment-right"
-      name="font-editor-1-alignment"
-      class="font-editor-alignment"
-      value="right"
-      data-target="font-editor-1"
-    />
-    Right
-  </label>
+{%
+  include
+  font-editor.html
+  target="font-editor-massimo"
+  families="Massimo Text, Massimo Display"
+  weights="Regular, Light, Semi, Bold"
+%}
+<div
+  id="font-editor-massimo"
+  contenteditable
+  style="font-size: 50px; font-weight: normal; font-family: 'Massimo Text';"
+>
+  Where are the fonts, motherfucker?
 </div>
 
-<input class="font-editor-size" type="range" min="10" max="100" increment="1" data-target="font-editor-1" value="50" />
-
-<div id="font-editor-1" contenteditable style="font-size: 50px">
+{%
+  include
+  font-editor.html
+  target="font-editor-linsingen"
+  families="Linsingen Moderna, Linsingen Stencil, Linsingen Vintage"
+%}
+<div
+  id="font-editor-linsingen"
+  contenteditable
+  style="font-size: 50px; font-weight: normal; font-family: 'Linsingen Moderna';"
+>
   Where are the fonts, motherfucker?
 </div>
