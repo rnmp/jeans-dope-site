@@ -7,10 +7,11 @@
 body {
   background: #000;
   color: #fff;
-  font-family: neue-haas-grotesk-display;
-  font-weight: 600;
+  font-family: neue-haas-unica;
+  font-weight: 700;
   font-style: normal;
-  padding: 5rem;
+  padding: 5vw;
+  font-size: 2vw;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -18,9 +19,81 @@ p, ol, ul {
   margin-bottom: 1rem;
 }
 
+h1 {
+  font-size: 5vw;
+}
+
+h6 {
+  font-size: 2vw;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  color: #E01E1E;
+}
+
+.viewport {
+  height: 100vh;
+}
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-self-center {
+  align-self: center
+}
+.w-100 { width: 100%; }
+.w-50 { width: 50%; }
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.project-thumbnail {
+  display: block;
+  position: relative;
+}
+
+.project-thumbnail header {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5vh;
+  width: 50%;
+}
+
+.project-thumbnail img {
+  display: block;
+  max-width: 75vw;
+  max-height: 75vh;
+}
+
+.project-thumbnail-alt header {
+  right: unset;
+}
+
+.project-thumbnail-alt img {
+  margin-left: auto;
+}
+
 .font-size-lead {
-  font-size: 4rem;
+  font-size: 5vw;
   margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+#logo img {
+  width: 10vw;
+}
+.homepage-logo {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vh;
 }
 
 [contenteditable]::focus {
@@ -113,4 +186,79 @@ p, ol, ul {
       url('/fonts/linsingen/subset-LinsingenStencil-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+.font-editor-controls {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #fff;
+  margin-bottom: 2em;
+}
+
+.font-editor-preview {
+  margin-bottom: 10rem;
+}
+
+.font-editor-control {
+  min-width: 100%;
+}
+
+@media all and (min-width: 700px) {
+  .font-editor-control {
+    min-width: 15%;
+    margin-right: 30px;
+  }
+}
+
+select {
+	display: block;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: 700;
+	color: white;
+	padding: .6em 1.4em .5em 0;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	border: none;
+	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #000;
+}
+
+.select-wrapper {
+  position: relative;
+}
+.select-wrapper::before {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+
+  border-top: 7px solid #fff;
+  color: #fff;
+}
+select::-ms-expand {
+	display: none;
+}
+select:hover {
+	border-color: #888;
+}
+select:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #fff;
+	outline: none;
+}
+select option {
+	font-weight:normal;
 }

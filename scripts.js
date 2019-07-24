@@ -2,18 +2,8 @@ function getFontEditorTarget(event) {
   return document.getElementById(event.target.dataset.target)
 }
 
-function changeFontAlignment (event) {
-  getFontEditorTarget(event).style.textAlign = event.target.value
-}
-
-document.querySelectorAll('.font-editor-alignment').forEach(
-  function (alignmentEditor) {
-    alignmentEditor.addEventListener('click', changeFontAlignment)
-  },
-)
-
 function changeFontSize (event) {
-  getFontEditorTarget(event).style.fontSize = event.target.value + "px"
+  getFontEditorTarget(event).style.fontSize = event.target.value + "vw"
 }
 
 document.querySelectorAll('.font-editor-size').forEach(

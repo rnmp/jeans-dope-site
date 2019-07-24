@@ -24,6 +24,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+links:
+  arena: https://jeanwoj.arena.com/
+  behance: https://www.behance.net/jeanwoj
+  instagram: https://www.instagram.com/jean.woj/
+  tumblr: https://jeanwoj.tumblr.com/
+
 # Build settings
 markdown: kramdown
 theme: minima

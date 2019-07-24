@@ -1,74 +1,41 @@
-{% if include.families %}
-  <div class="font-editor-controls">
-    <select
-      class="font-editor-family"
-      data-target="{{ include.target }}"
-    >
-      {% assign families = include.families | split: ", " %}
-      {% for family in families %}
-        <option value="{{ family }}">{{ family }}</option>
-      {% endfor %}
-    </select>
-  </div>
-{% endif %}
-
-{% if include.weights %}
-  <div class="font-editor-controls">
-    <select
-      class="font-editor-weight"
-      data-target="{{ include.target }}"
-    >
-      {% assign weights = include.weights | split: ", " %}
-      {% for weight in weights %}
-        <option value="{{ weight }}">{{ weight }}</option>
-      {% endfor %}
-    </select>
-  </div>
-{% endif %}
-
 <div class="font-editor-controls">
-  <label for="{{ include.target }}-alignment-left">
-    <input
-      type="radio"
-      id="{{ include.target }}-alignment-left"
-      name="{{ include.target }}-alignment"
-      class="font-editor-alignment"
-      value="left"
-      data-target="{{ include.target }}"
-      checked
-    />
-    Left
-  </label>
-  <label for="{{ include.target }}-alignment-center">
-    <input
-      type="radio"
-      id="{{ include.target }}-alignment-center"
-      name="{{ include.target }}-alignment"
-      class="font-editor-alignment"
-      value="center"
-      data-target="{{ include.target }}"
-    />
-    Center
-  </label>
-  <label for="{{ include.target }}-alignment-right">
-    <input
-      type="radio"
-      id="{{ include.target }}-alignment-right"
-      name="{{ include.target }}-alignment"
-      class="font-editor-alignment"
-      value="right"
-      data-target="{{ include.target }}"
-    />
-    Right
-  </label>
-</div>
+  {% if include.families %}
+    <div class="font-editor-control select-wrapper">
+      <select
+        class="font-editor-family"
+        data-target="{{ include.target }}"
+      >
+        {% assign families = include.families | split: ", " %}
+        {% for family in families %}
+          <option value="{{ family }}">{{ family }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  {% endif %}
 
-<input
-  class="font-editor-size"
-  type="range"
-  min="10"
-  max="100"
-  increment="1"
-  data-target="{{ include.target }}"
-  value="50"
-/>
+  {% if include.weights %}
+    <div class="font-editor-control select-wrapper">
+      <select
+        class="font-editor-weight"
+        data-target="{{ include.target }}"
+      >
+        {% assign weights = include.weights | split: ", " %}
+        {% for weight in weights %}
+          <option value="{{ weight }}">{{ weight }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  {% endif %}
+
+  <div class="font-editor-control">
+    <input
+      class="font-editor-size"
+      type="range"
+      min="5"
+      max="10"
+      increment="0.01"
+      data-target="{{ include.target }}"
+      value="10"
+    />
+  </div>
+</div>
