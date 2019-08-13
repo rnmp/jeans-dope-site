@@ -5,11 +5,15 @@
 layout: default
 ---
 
+<a href="#logo" id="logo" class="homepage-logo">
+  <img src="/svgs/logo.svg" alt=""/>
+</a>
+
 <div class="viewport">
   <p class="font-size-lead">
     Hi, my name is Jean Wojciechowski, I’m a Brazilian graphic designer with special interest in
     branding and type design.
-    You can check my work belaow. I’m also on
+    You can check my work below. I’m also on
     <a href="{{ site.links.behance }}">Behance</a>,
     <a href="{{ site.links.instagram }}">Instagram</a>,
     <a href="{{ site.links.tumblr }}">Tumblr</a>
@@ -20,14 +24,10 @@ layout: default
   <p class="font-size-lead">
     Feel free to reach out:<br /><a href="mailto:woj.jean@gmail.com">woj.jean@gmail.com</a>
   </p>
-
-  <a href="#logo" id="logo" class="homepage-logo">
-    <img src="/svgs/logo.svg" alt=""/>
-  </a>
 </div>
 
 <div class="viewport d-flex">
-  <div class="align-self-center w-100">
+  <div class="w-100 align-self-center">
     <a class="project-thumbnail" href="#something">
       <img src="/images/curitiba.jpg" alt="" />
       <header>
@@ -47,8 +47,8 @@ layout: default
   </div>
 </div>
 
-<div class="viewport d-flex">
-  <div class="align-self-center w-100">
+<div class="viewport-50 d-flex">
+  <div class="w-100">
     {%
       include
       font-editor.html
@@ -67,7 +67,7 @@ layout: default
 </div>
 
 <div class="viewport d-flex">
-  <div class="align-self-center w-100">
+  <div class="w-100">
     <a class="project-thumbnail project-thumbnail-alt d-flex" href="#something">
       <img src="/images/royal-rage-band.jpg" alt="" />
       <header>
@@ -88,7 +88,7 @@ layout: default
 </div>
 
 <div class="viewport d-flex">
-  <div class="align-self-center w-100">
+  <div class="w-100">
     {%
       include
       font-editor.html

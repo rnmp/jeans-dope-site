@@ -11,7 +11,7 @@ body {
   font-weight: 700;
   font-style: normal;
   padding: 5vw;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -20,11 +20,11 @@ p, ol, ul {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 h6 {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 a {
@@ -39,16 +39,26 @@ a:hover {
 .viewport {
   height: 100vh;
 }
+.viewport-50 {
+  height: 50vh;
+}
 .d-flex {
   display: flex;
 }
 .flex-column {
   flex-direction: column;
 }
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
 .align-self-center {
   align-self: center
 }
 .w-100 { width: 100%; }
+.w-75 { width: 75%; }
 .w-50 { width: 50%; }
 .text-uppercase {
   text-transform: uppercase;
@@ -82,18 +92,49 @@ a:hover {
 }
 
 .font-size-lead {
-  font-size: 5vw;
+  font-size: 4vw;
   margin-bottom: 2rem;
   line-height: 1.2;
 }
 
 #logo img {
-  width: 10vw;
+  width: 7vw;
 }
 .homepage-logo {
   position: fixed;
   bottom: 5vh;
   right: 5vh;
+}
+.project-page-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+
+.font-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.font-grid > span {
+  display: block;
+  width: 7.1%;
+  padding-bottom: 7.1%;
+  position: relative;
+}
+.font-grid > span.mini {
+  width: 5.1%;
+}
+.font-grid > span > i {
+  font-style: normal;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 [contenteditable]::focus {
@@ -188,6 +229,11 @@ a:hover {
   font-style: normal;
 }
 
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
 .font-editor-controls {
   display: flex;
   align-items: center;
@@ -261,4 +307,31 @@ select:focus {
 }
 select option {
 	font-weight:normal;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1px;
+  border-radius: 5px;
+  background: #fff;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
 }
