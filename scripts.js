@@ -3,7 +3,7 @@ function getFontEditorTarget(event) {
 }
 
 function changeFontSize (event) {
-  getFontEditorTarget(event).style.fontSize = event.target.value + "vw"
+  getFontEditorTarget(event).style.fontSize = event.target.value + "px"
 }
 
 document.querySelectorAll('.font-editor-size').forEach(

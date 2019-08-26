@@ -39,7 +39,7 @@ layout: default
       class="font-editor-preview"
       id="font-editor-linsingen"
       contenteditable
-      style="font-size: 10vw; font-weight: normal; font-family: 'Linsingen Moderna';"
+      style="font-size: 100px; font-weight: normal; font-family: 'Linsingen Moderna';"
     >
       LINSINGEN<br/>TYPEFACE
     </div>
