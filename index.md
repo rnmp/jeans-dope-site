@@ -1,8 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
+
+body_class: homepage
 ---
 
 <a href="#logo" id="logo" class="homepage-logo">
@@ -26,7 +25,9 @@ layout: default
   </p>
 </div>
 
-<div class="viewport d-flex">
+<!-- TODO: fix bg color being red when page loads at a random scroll position  -->
+
+<div class="project-thumb d-flex">
   <div class="w-100 align-self-center">
     <a class="project-thumbnail" href="#something">
       <img src="/images/curitiba.jpg" alt="" />
@@ -47,7 +48,7 @@ layout: default
   </div>
 </div>
 
-<div class="viewport-50 d-flex">
+<div class="project-thumb d-flex">
   <div class="w-100">
     {%
       include
@@ -66,7 +67,7 @@ layout: default
   </div>
 </div>
 
-<div class="viewport d-flex">
+<div class="project-thumb d-flex">
   <div class="w-100">
     <a class="project-thumbnail project-thumbnail-alt d-flex" href="#something">
       <img src="/images/royal-rage-band.jpg" alt="" />
@@ -87,7 +88,7 @@ layout: default
   </div>
 </div>
 
-<div class="viewport d-flex">
+<div class="d-flex">
   <div class="w-100">
     {%
       include
