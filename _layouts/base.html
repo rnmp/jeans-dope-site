@@ -6,7 +6,11 @@
     <link rel="stylesheet" href="https://use.typekit.net/vui3lin.css">
   </head>
   <body class="{{ page.body_class }}">
-    {{ content }}
+    <main>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
     <script src="/scripts.js"></script>
   </body>
 </html>

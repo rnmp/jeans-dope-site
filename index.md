@@ -25,8 +25,6 @@ body_class: homepage
   </p>
 </div>
 
-<!-- TODO: fix bg color being red when page loads at a random scroll position  -->
-
 <div class="project-thumb d-flex">
   <div class="w-100 align-self-center">
     <a class="project-thumbnail" href="#something">
