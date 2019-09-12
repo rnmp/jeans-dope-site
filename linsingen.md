@@ -1,31 +1,20 @@
 ---
-layout: default
+layout: project
+
+project_name: Linsingen Typeface
+project_headline: Inspired by Brazilian tea barrel labels
+project_brief:
+  Linsingen is a font family inspired by Brazilian tea
+  barrel labels printed with lithography in the
+  beginning of the 20th century. The family consists of
+  three styles - Linsingen Vintage, which preserves the
+  shapes found in the original prints; Linsingen
+  Moderna, a contemporary interpretation of the
+  original shapes, with increased contrast and sharper
+  lines; and Linsingen Stencil. All of the three styles
+  are suited for titles and headlines.
+
 ---
-
-<a href="#logo" id="logo" class="project-page-logo">
-  <img src="/svgs/logo.svg" alt=""/>
-</a>
-
-<div class="d-flex viewport-50">
-  <div class="w-50">
-    <h2>Linsingen Typeface</h2>
-  </div>
-  <div class="w-50">
-    <h3>Inspired by Brazilian tea barrel labels</h3>
-    <p>
-      Linsingen is a font family inspired by Brazilian tea
-      barrel labels printed with lithography in the
-      beginning of the 20th century. The family consists of
-      three styles - Linsingen Vintage, which preserves the
-      shapes found in the original prints; Linsingen
-      Moderna, a contemporary interpretation of the
-      original shapes, with increased contrast and sharper
-      lines; and Linsingen Stencil. All of the three styles
-      are suited for titles and headlines.
-    </p>
-  </div>
-</div>
-
 
 <div class="d-flex justify-content-center" style="min-height: 50vh">
   <div class="w-75">

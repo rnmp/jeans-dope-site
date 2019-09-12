@@ -16,7 +16,6 @@ body {
   font-style: normal;
   font-size: 1.5vw;
   -webkit-font-smoothing: antialiased;
-  transition: all 0.2s ease-in-out;
 }
 
 body.homepage {
@@ -56,7 +55,7 @@ a {
 }
 
 a:hover {
-  color: #E01E1E;
+  color: #f33;
 }
 
 body.homepage a:hover {
@@ -127,6 +126,32 @@ body.homepage a:hover {
   font-size: 4vw;
   margin-bottom: 2rem;
   line-height: 1.2;
+}
+
+.hidden-meanings {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  font-family: 'Linsingen Moderna';
+  text-transform: uppercase;
+  font-size: 48px;
+  text-align: center;
+  width: 100%;
+  height: 540px;
+}
+
+.wip-layout {
+  position: relative;
+  z-index: 1;
+  margin-top: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wip-layout img {
+  max-width: 40vw;
+  margin-bottom: 10vw;
 }
 
 #logo img {

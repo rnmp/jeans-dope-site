@@ -4,7 +4,7 @@ layout: default
 body_class: homepage
 ---
 
-<a href="#logo" id="logo" class="homepage-logo">
+<a href="/wip" id="logo" class="homepage-logo">
   <img src="/svgs/logo.svg" alt=""/>
 </a>
 
@@ -27,7 +27,7 @@ body_class: homepage
 
 <div class="project-thumb d-flex">
   <div class="w-100 align-self-center">
-    <a class="project-thumbnail" href="#something">
+    <a class="project-thumbnail" href="/curitiba_coral">
       <img src="/images/curitiba.jpg" alt="" />
       <header>
         <h1>Curitiba Coral</h1>
@@ -70,7 +70,7 @@ body_class: homepage
 
 <div class="project-thumb d-flex">
   <div class="w-100">
-    <a class="project-thumbnail project-thumbnail-alt d-flex" href="#something">
+    <a class="project-thumbnail project-thumbnail-alt d-flex" href="/royal_rage_band">
       <img src="/images/royal-rage-band.jpg" alt="" />
       <header>
         <h1>Royal Rage Band</h1>
