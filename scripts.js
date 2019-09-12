@@ -22,6 +22,15 @@ document.querySelectorAll('.font-editor-family').forEach(
   }
 )
 
+document.querySelectorAll('.font-editor-preview').forEach(
+  function (preview) {
+    var handler = function () { preview.classList.toggle('is-editing') }
+
+    preview.addEventListener('focus', handler)
+    preview.addEventListener('blur', handler)
+  }
+)
+
 function changeFontWeight (event) {
   switch (event.target.value) {
     case 'Light':

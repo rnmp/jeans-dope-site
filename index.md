@@ -48,8 +48,8 @@ body_class: homepage
   </div>
 </div>
 
-<div class="project-thumb d-flex">
-  <div class="w-100">
+<article>
+  <div>
     {%
       include
       font-editor.html
@@ -65,7 +65,10 @@ body_class: homepage
       LINSINGEN<br/>TYPEFACE
     </div>
   </div>
-</div>
+  <footer>
+    <p class="text-uppercase"><a href="/linsingen">See full project</a></p>
+  </footer>
+</article>
 
 <div class="project-thumb d-flex">
   <div class="w-100">
@@ -88,8 +91,8 @@ body_class: homepage
   </div>
 </div>
 
-<div class="d-flex">
-  <div class="w-100">
+<article>
+  <div>
     {%
       include
       font-editor.html
@@ -106,4 +109,7 @@ body_class: homepage
       MASSIMO<br/>TYPEFACE
     </div>
   </div>
-</div>
+  <footer>
+    <p class="text-uppercase"><a href="/massimo">See full project</a></p>
+  </footer>
+</article>
