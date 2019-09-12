@@ -140,6 +140,18 @@ body.homepage a:hover {
   height: 540px;
 }
 
+.hidden-meanings.accent {
+  z-index: 9;
+}
+
+.hidden-meanings.accent {
+  visibility: hidden;
+}
+
+.hidden-meanings.accent span {
+  visibility: visible;
+}
+
 .wip-layout {
   position: relative;
   z-index: 1;

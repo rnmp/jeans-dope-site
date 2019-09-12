@@ -14,6 +14,17 @@ layout: default
   experi<span>me</span>nts
 </p>
 
+<p class="hidden-meanings accent">
+  <a href="/" id="logo" class="project-page-logo">
+    <img src="/svgs/logo.svg" alt=""/>
+  </a>
+  In this page <span>you</span><br />
+  <span>will find</span> sketches,<br />
+  work in progress<br />
+  and random visual<br />
+  experi<span>me</span>nts
+</p>
+
 <div class="wip-layout">
   <img src="/images/wip/AI_Image.jpg" alt=""/>
   <img src="/images/wip/qLaFZs.jpg" alt=""/>
