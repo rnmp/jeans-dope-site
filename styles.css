@@ -122,6 +122,7 @@ body.homepage a:hover {
   background: #000;
   height: 7vw;
   border-radius: 50%;
+  overflow: hidden;
 }
 .project-page-logo {
   display: flex;
