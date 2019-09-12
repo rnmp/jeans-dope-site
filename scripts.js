@@ -41,11 +41,32 @@ document.querySelectorAll('.font-editor-weight').forEach(
   }
 )
 
-function toHex(num) {
-  var hex = Math.round(num).toString(16)
-  if (hex.length == 1) { hex = '0' + hex }
+var body = document.querySelector('body.homepage')
+if (body) {
+  window.addEventListener('scroll', enjoyLife)
+  enjoyLife()
+}
 
-  return hex
+function enjoyLife () {
+  var percentageScrolled = (window.scrollY) / window.innerHeight
+  var difference = percentageScrolled
+  var backgroundColor
+
+  if (difference === 0) {
+    backgroundColor = '#f33'
+  } else if (difference < 1.0) {
+    backgroundColor = blendColors('#f33', '#000', difference)
+  } else {
+    backgroundColor = '#000'
+  }
+
+  body.style.backgroundColor = backgroundColor
+
+  if (difference > .5) {
+    body.classList.remove('homepage')
+  } else {
+    body.classList.add('homepage')
+  }
 }
 
 function blendColors(color1, color2, percentage) {
@@ -75,22 +96,9 @@ function blendColors(color1, color2, percentage) {
   return result
 }
 
-var body = document.querySelector('body.homepage')
+function toHex(num) {
+  var hex = Math.round(num).toString(16)
+  if (hex.length == 1) { hex = '0' + hex }
 
-if (body) {
-  var logo = document.querySelector('.homepage-logo')
-
-  window.addEventListener('scroll', function (_) {
-      var percentageScrolled = (window.scrollY) / window.innerHeight
-      var difference = percentageScrolled
-
-      body.style.backgroundColor = Boolean(difference) ? blendColors('#f00', '#000', difference) : '#f00'
-      logo.style.backgroundColor = Boolean(difference) ? ['rgba(0, 0, 0', 1-difference,')'].join('') : '#000'
-
-      if (difference > .5) {
-        body.style.color = '#fff'
-      } else {
-        body.style.color = '#000'
-      }
-  })
+  return hex
 }
