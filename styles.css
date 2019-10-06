@@ -63,6 +63,10 @@ body.homepage a:hover {
   color: #fff;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
 
 [contenteditable]:focus {
   outline: 0px solid transparent;
