@@ -168,8 +168,12 @@ body.homepage a:hover {
   flex-wrap: wrap;
 }
 .wip-layout img {
-  max-width: 40vw;
+  max-width: 30vw;
   margin-bottom: 10vw;
+}
+.wip-layout img:nth-child(2n) {
+  max-width: 80vw;
+  max-height: 60vw;
 }
 
 #logo img {
