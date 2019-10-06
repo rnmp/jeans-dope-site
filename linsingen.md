@@ -28,6 +28,7 @@ project_brief:
       class="font-editor-preview"
       id="font-editor-linsingen"
       contenteditable
+      spellcheck="false"
       style="font-size: 100px; font-weight: normal; font-family: 'Linsingen Moderna';"
     >
       LINSINGEN<br/>TYPEFACE
