@@ -37,7 +37,7 @@ body_class: homepage
           </div>
           <div class="w-50">
             <p>Branding</p>
-            <p>Visual branding for Christian Choir</p>
+            <p>Visual identity for Christian Choir</p>
           </div>
         </div>
         <p class="text-uppercase">See full project</p>
