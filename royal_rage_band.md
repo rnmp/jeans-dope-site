@@ -15,3 +15,8 @@ project_brief:
   are suited for titles and headlines.
 
 ---
+
+
+![](/images/royal_rage_band/royal5b.jpg)
+![](/images/royal_rage_band/royal6b.jpg)
+![](/images/royal_rage_band/royal2c.jpg)
