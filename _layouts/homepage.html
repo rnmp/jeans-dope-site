@@ -1,0 +1,69 @@
+---
+layout: base
+---
+
+<a href="/wip" id="logo" class="homepage-logo">
+  <img src="/svgs/logo.svg" alt=""/>
+</a>
+
+<div class="viewport font-size-lead">
+  {{ content }}
+</div>
+
+{% assign projects = site.projects | sort: "position", "last" %}
+{% for project in projects %}
+  {% if project.layout == 'typeface' %}
+    {% assign font_options = project.font_options | jsonify %}
+    {% assign default_font_option = project.font_options[project.default_font_option] %}
+    <article>
+      <div>
+        {%
+          include font-editor.html
+          target="font-editor-massimo"
+          typeface_name=project.typeface_name
+          font_options=font_options
+          default_text=project.default_text
+          default_font_option=default_font_option
+        %}
+        <div
+          class="font-editor-preview"
+          id="font-editor-massimo"
+          contenteditable
+          spellcheck="false"
+          style="font-size: 100px; font-weight: {{ default_font_option.weight }}; font-family: {{ default_font_option.family }};"
+        >
+          {{project.default_text}}
+        </div>
+      </div>
+      <footer>
+        <p class="text-uppercase"><a href="{{ project.url }}">See full project</a></p>
+      </footer>
+    </article>
+  {% else %}
+    {% assign class_name = "project-thumbnail" %}
+    {% if project.project_cover_left %}
+      {% assign class_name_alt = "project-thumbnail-alt" %}
+    {% endif %}
+    <div class="project-thumb d-flex">
+      <div class="w-100 align-self-center">
+        <a class="{{ class_name }} {{ class_name_alt | default: '' }}" href="{{ project.url }}">
+          <img src="{{ project.project_cover }}" alt="" />
+          <header>
+            <h1>{{ project.project_name }}</h1>
+            <div class="d-flex text-uppercase">
+              <div class="w-50">
+                <h6>Creative Field</h6>
+              </div>
+              <div class="w-50">
+                {% for creative_field in project.project_creative_field %}
+                  <p>{{ creative_field }}</p>
+                {% endfor %}
+              </div>
+            </div>
+            <p class="text-uppercase">See full project</p>
+          </header>
+        </a>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

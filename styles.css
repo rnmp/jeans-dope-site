@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: neue-haas-unica;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5vw;
+  -webkit-font-smoothing: antialiased;
+}
+
+body.homepage {
+  color: #000;
+}
+
+main {
+  padding: 5vw;
+}
+
+body > footer {
+  height: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0) 70%, #f33 170%);
+  display: flex;
+  align-items: center;
+  font-size: .8em;
+  justify-content: center;
+}
+
+body > footer a {
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ol, ul {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+h6 {
+  font-size: 1.5vw;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+
+}
+
+a:hover {
+  color: #f33;
+}
+
+body.homepage a:hover {
+  color: rgba(0,0,0,0.5);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+[contenteditable]:focus {
+  outline: 0px solid transparent;
+}
+
+.viewport {
+  height: 100vh;
+}
+.viewport-50 {
+  height: 50vh;
+}
+
+.project-thumb {
+  margin-bottom: 300px;
+}
+
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-self-center {
+  align-self: center
+}
+.w-100 { width: 100%; }
+.w-75 { width: 75%; }
+.w-50 { width: 50%; }
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.project-thumbnail {
+  display: block;
+  position: relative;
+}
+
+.project-thumbnail header {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5vh;
+  width: 50%;
+}
+
+.project-thumbnail img {
+  display: block;
+  max-width: 75vw;
+  max-height: 75vh;
+}
+
+.project-thumbnail-alt header {
+  right: unset;
+}
+
+.project-thumbnail-alt img {
+  margin-left: auto;
+}
+
+.font-size-lead {
+  font-size: 4vw;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.hidden-meanings {
+  /* position: fixed; */
+  top: 50px;
+  left: 0;
+  font-family: goldenbook, serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 48px;
+  text-align: center;
+  width: 100%;
+  height: 540px;
+}
+
+.hidden-meanings #logo {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.hidden-meanings #logo-space {
+  height: 7vw;
+  margin-bottom: 1em;
+}
+
+.hidden-meanings #logo img {
+  margin: 0 auto;
+}
+
+.hidden-meanings.accent {
+  display: none;
+  /* z-index: 9; */
+}
+
+.wip-layout {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wip-layout img {
+  max-width: 30vw;
+  margin: 0 5em;
+  margin-bottom: 10vw;
+}
+
+.wip-layout .image-container {
+  height: 100vh;
+  display: flex;
+}
+.wip-layout .image-container img {
+  align-self: flex-start;
+}
+.wip-layout .image-container:nth-child(2n) img {
+  align-self: center;
+}
+
+#logo img {
+  width: 7vw;
+}
+.homepage-logo {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vh;
+  background: #000;
+  height: 7vw;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.project-page-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+article > div {
+  margin-bottom: 2rem;
+}
+
+
+.font-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.font-grid > span {
+  display: block;
+  width: 7.1%;
+  padding-bottom: 7.1%;
+  position: relative;
+}
+.font-grid > span.mini {
+  width: 5.1%;
+}
+.font-grid > span > i {
+  font-style: normal;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+[contenteditable]::focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'Massimo Text';
+  src: url('/fonts/massimo/subset-MassimoText-Bold.woff2') format('woff2'),
+      url('/fonts/massimo/subset-MassimoText-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Massimo Text';
+  src: url('/fonts/massimo/subset-MassimoText-Regular.woff2') format('woff2'),
+      url('/fonts/massimo/subset-MassimoText-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Massimo Text';
+  src: url('/fonts/massimo/subset-MassimoText-Light.woff2') format('woff2'),
+      url('/fonts/massimo/subset-MassimoText-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Massimo Text';
+  src: url('/fonts/massimo/subset-MassimoText-Semi.woff2') format('woff2'),
+      url('/fonts/massimo/subset-MassimoText-Semi.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Massimo Display';
+  src: url('/fonts/massimo/subset-MassimoDisplay-Bold.woff2') format('woff2'),
+      url('/fonts/massimo/subset-MassimoDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Massimo Display';
+  src: url('/fonts/massimo/subset-MassimoDisplay-Semi.woff2') format('woff2'),
+      url('/fonts/massimo/subset-MassimoDisplay-Semi.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Massimo Display';
+  src: url('/fonts/massimo/subset-MassimoDisplay-Light.woff2') format('woff2'),
+      url('/fonts/massimo/subset-MassimoDisplay-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Massimo Display';
+  src: url('/fonts/massimo/subset-MassimoDisplay-Regular.woff2') format('woff2'),
+      url('/fonts/massimo/subset-MassimoDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Linsingen Vintage';
+  src: url('/fonts/linsingen/subset-LinsingenVintage-Regular.woff2') format('woff2'),
+      url('/fonts/linsingen/subset-LinsingenVintage-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Linsingen Moderna';
+  src: url('/fonts/linsingen/LinsingenModerna-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: 'Linsingen Moderna';
+  src: url('/fonts/linsingen/subset-LinsingenModerna-Regular.woff2') format('woff2'),
+      url('/fonts/linsingen/subset-LinsingenModerna-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Linsingen Stencil';
+  src: url('/fonts/linsingen/subset-LinsingenStencil-Regular.woff2') format('woff2'),
+      url('/fonts/linsingen/subset-LinsingenStencil-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.font-editor-controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.font-editor-control {
+  min-width: 100%;
+}
+
+.font-editor-preview {
+  display: inline-block;
+}
+.font-editor-preview.is-editing {
+  display: block;
+}
+
+@media all and (min-width: 700px) {
+  .font-editor-control {
+    min-width: 15%;
+    margin-right: 30px;
+  }
+}
+
+select {
+	display: block;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: 700;
+	color: white;
+	padding: .6em 1.4em .5em 0;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	border: none;
+	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #000;
+}
+
+.select-wrapper {
+  position: relative;
+}
+.select-wrapper::before {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+
+  border-top: 7px solid #fff;
+  color: #fff;
+}
+select::-ms-expand {
+	display: none;
+}
+select:hover {
+	border-color: #888;
+}
+select:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #fff;
+	outline: none;
+}
+select option {
+	font-weight:normal;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1px;
+  border-radius: 5px;
+  background: #fff;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<div class="font-editor-controls">
+  {{ include.typeface_name }}
+  {% if include.families %}
+    <div class="font-editor-control select-wrapper">
+      <select
+        class="font-editor-family"
+        data-target="{{ include.target }}"
+        data-options="{{ include.font_options }}"
+      >
+      </select>
+    </div>
+  {% endif %}
+
+  {% if include.weights %}
+    <div class="font-editor-control select-wrapper">
+      <select
+        class="font-editor-weight"
+        data-target="{{ include.target }}"
+      >
+        {% assign weights = include.weights | split: ", " %}
+        {% for weight in weights %}
+          <option value="{{ weight }}">{{ weight }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  {% endif %}
+
+  <div class="font-editor-control d-flex align-items-center">
+    <input
+      class="font-editor-size"
+      type="range"
+      min="20"
+      max="200"
+      increment="1"
+      data-target="{{ include.target }}"
+      value="100"
+    />
+  </div>
+</div>
