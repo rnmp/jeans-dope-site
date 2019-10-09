@@ -1,23 +1,18 @@
 ---
-layout: project
-
+title: Curitiba_coral
 position: 1
+layout: project
 project_name: Curitiba Coral
-project_cover: /images/curitiba.jpg
+project_cover: "/images/curitiba.jpg"
 project_headline: Reaching heaven
-project_brief:
-  In an environment where communication materials
-  tend to be outdated and little inventive, Curitiba
-  Choir sought a new identity designed towards
-  a young audience (15-35) that would be bold,
-  contemporary and relevant. With clear goals
-  to be reached, we developed a visual system based
-  on a concise symbol, vivid color gradients alongside
-  a clean and direct typography.
+project_brief: In an environment where communication materials tend to be outdated
+  and little inventive, Curitiba Choir sought a new identity designed towards a young
+  audience (15-35) that would be bold, contemporary and relevant. With clear goals
+  to be reached, we developed a visual system based on a concise symbol, vivid color
+  gradients alongside a clean and direct typography.
 project_creative_field:
-  - Branding
-  - Visual Identity for Christian Choir
-
+- Branding
+- Visual Identity for Christian Choir
 ---
 
 ![](/images/curitiba_coral/Curitiba%20Coral-01.jpg)

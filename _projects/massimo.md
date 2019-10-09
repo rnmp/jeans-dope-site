@@ -1,20 +1,15 @@
 ---
-layout: typeface
-
+title: Massimo
 position: 4
+layout: typeface
 project_name: Massimo Typeface
 project_headline: Inspired by Brazilian tea barrel labels
-project_brief:
-  Linsingen is a font family inspired by Brazilian tea
-  barrel labels printed with lithography in the
-  beginning of the 20th century. The family consists of
-  three styles - Linsingen Vintage, which preserves the
-  shapes found in the original prints; Linsingen
-  Moderna, a contemporary interpretation of the
-  original shapes, with increased contrast and sharper
-  lines; and Linsingen Stencil. All of the three styles
-  are suited for titles and headlines.
-
+project_brief: Linsingen is a font family inspired by Brazilian tea barrel labels
+  printed with lithography in the beginning of the 20th century. The family consists
+  of three styles - Linsingen Vintage, which preserves the shapes found in the original
+  prints; Linsingen Moderna, a contemporary interpretation of the original shapes,
+  with increased contrast and sharper lines; and Linsingen Stencil. All of the three
+  styles are suited for titles and headlines.
 typeface_name: Massimo
 font_options:
   Text Regular:
@@ -41,12 +36,8 @@ font_options:
   Display Bold:
     family: Massimo Display
     weight: Bold
-
 default_font_option: Text Regular
-default_text: >-
-  MASSIMO
-  TYPEFACE
-
+default_text: MASSIMO TYPEFACE
 ---
 
 ![](/images/massimo/Massimo%20-%20Typeface%2017-07-18-.png)
