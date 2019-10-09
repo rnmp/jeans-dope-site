@@ -22,10 +22,10 @@ font_options:
     family: Linsingen Vintage
     weight: Thin
 opentype_features:
-  - dlig
-  - salt
-  - ss01
-  - swsh
+- dlig
+- salt
+- ss01
+- swsh
 default_font_option: Moderna
 default_text: LINSINGEN
 ---
