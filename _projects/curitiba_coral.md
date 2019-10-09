@@ -1,7 +1,6 @@
 ---
-title: Curitiba_coral
+title: Curitiba Coral
 position: 1
-layout: project
 project_name: Curitiba Coral
 project_cover: "/images/curitiba.jpg"
 project_headline: Reaching heaven
@@ -13,6 +12,7 @@ project_brief: In an environment where communication materials tend to be outdat
 project_creative_field:
 - Branding
 - Visual Identity for Christian Choir
+layout: project
 ---
 
 ![](/images/curitiba_coral/Curitiba%20Coral-01.jpg)
