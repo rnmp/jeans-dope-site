@@ -1,7 +1,6 @@
 ---
-title: Royal_rage_band
+title: Royal Rage Band
 position: 3
-layout: project
 project_name: Royal Rage Band
 project_cover: "/images/royal-rage-band.jpg"
 project_cover_left: true
@@ -15,6 +14,7 @@ project_brief: Linsingen is a font family inspired by Brazilian tea barrel label
 project_creative_field:
 - Poster Design
 - Tour Posters for Thrash Metal Band Royal Rage
+layout: project
 ---
 
 ![](/images/royal_rage_band/royal5b.jpg)
