@@ -1,6 +1,7 @@
 ---
-layout: homepage
+title: Homepage
 body_class: homepage
+layout: homepage
 ---
 
 Hi, my name is Jean Wojciechowski, I’m a Brazilian graphic designer with special interest in branding and type design.
