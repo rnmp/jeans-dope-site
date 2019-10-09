@@ -1,6 +1,6 @@
 ---
 title: Massimo
-position: 4
+position: 3
 project_name: Massimo Typeface
 project_headline: Inspired by Brazilian tea barrel labels
 project_brief: Linsingen is a font family inspired by Brazilian tea barrel labels
