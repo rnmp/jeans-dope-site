@@ -1,6 +1,6 @@
 ---
 title: Royal Rage Band
-position: 0
+position: 2
 project_name: Royal Rage Band
 project_cover: "/images/royal-rage-band.jpg"
 project_cover_left: true

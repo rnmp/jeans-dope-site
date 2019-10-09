@@ -1,6 +1,6 @@
 ---
 title: Curitiba Coral
-position: 2
+position: 0
 project_name: Curitiba Coral
 project_cover: "/images/curitiba.jpg"
 project_headline: Reaching heaven
