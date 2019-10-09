@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 <div class="hidden-meanings">
   <a href="/" id="logo" class="project-page-logo">
     <img src="/svgs/logo.svg" alt=""/>

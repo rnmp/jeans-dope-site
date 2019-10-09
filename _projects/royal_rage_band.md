@@ -22,7 +22,6 @@ project_creative_field:
 
 ---
 
-
 ![](/images/royal_rage_band/royal5b.jpg)
 ![](/images/royal_rage_band/royal6b.jpg)
 ![](/images/royal_rage_band/royal2c.jpg)
