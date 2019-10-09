@@ -1,3 +1,5 @@
+// Font Editors
+
 var DefaultFontSize = 100
 var FontWeight = {
   'Hairline': 100,
@@ -49,6 +51,10 @@ function generateFontOptionsSelect (options, defaultOptionName, onChange) {
       currentOption.innerHTML = option[0]
       onChange(option[1])
       toggleActive()
+    })
+
+    _option.addEventListener('mouseover', function () {
+      onChange(option[1])
     })
 
     allOptions.append(_option)
@@ -114,39 +120,7 @@ document.querySelectorAll('.font-editor').forEach(function (fontEditor) {
   fontEditor.append(controls, preview)
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Homepage
 
 var body = document.querySelector('body.homepage')
 if (body) {
