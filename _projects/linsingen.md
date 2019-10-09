@@ -1,6 +1,6 @@
 ---
 title: Linsingen
-position: 1
+position: 0
 layout: typeface
 project_name: Linsingen Typeface
 project_headline: Inspired by Brazilian tea barrel labels
