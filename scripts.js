@@ -1,54 +1,152 @@
-function getFontEditorTarget(event) {
-  return document.getElementById(event.target.dataset.target)
+var DefaultFontSize = 100
+var FontWeight = {
+  'Hairline': 100,
+  'Thin': 200,
+  'Light': 300,
+  'Regular': 400,
+  'Semi': 600,
+  'Bold': 700,
 }
 
-function changeFontSize (event) {
-  getFontEditorTarget(event).style.fontSize = event.target.value + "px"
+function generateFontSizeRange (onInput) {
+  var range = document.createElement('input')
+  range.type = 'range'
+  range.min = 20
+  range.max = 200
+  range.increment = 1
+  range.value = DefaultFontSize
+  range.addEventListener('input', onInput)
+
+  return range
 }
 
-document.querySelectorAll('.font-editor-size').forEach(
-  function (sizeEditor) {
-    sizeEditor.addEventListener('input', changeFontSize)
-  }
-)
+function generateFontOptionsSelect (options, defaultOptionName, onChange) {
+  var currentOption = document.createElement('div')
+  currentOption.innerHTML = defaultOptionName
 
-function changeFontFamily (event) {
-  getFontEditorTarget(event).style.fontFamily = event.target.value
+  var allOptions = document.createElement('div')
+  allOptions.className = 'select-options'
+
+  var toggleActive = function () { allOptions.classList.toggle('is-active') }
+
+
+  window.addEventListener('click', function () {
+    allOptions.classList.remove('is-active')
+  })
+
+  currentOption.addEventListener('click', function (event) {
+    event.stopPropagation()
+    toggleActive()
+  })
+
+  Object.entries(options).map(function (option) {
+    _option = document.createElement('div')
+    _option.innerHTML = option[0]
+
+    _option.addEventListener('click', function (event) {
+      event.stopPropagation()
+
+      currentOption.innerHTML = option[0]
+      onChange(option[1])
+      toggleActive()
+    })
+
+    allOptions.append(_option)
+  })
+
+  var select = document.createElement('div')
+  select.className = 'select'
+  select.append(currentOption, allOptions)
+
+  return select
 }
 
-document.querySelectorAll('.font-editor-family').forEach(
-  function (familyEditor) {
-    familyEditor.addEventListener('change', changeFontFamily)
-  }
-)
+function generateFontEditorControls (typefaceName, options, defaultOptionName, preview) {
+  var container = document.createElement('div')
+  container.className = 'font-editor-controls'
 
-document.querySelectorAll('.font-editor-preview').forEach(
-  function (preview) {
-    var handler = function () { preview.classList.toggle('is-editing') }
+  var name = document.createElement('div')
+  name.innerText = typefaceName
 
-    preview.addEventListener('focus', handler)
-    preview.addEventListener('blur', handler)
-  }
-)
 
-function changeFontWeight (event) {
-  switch (event.target.value) {
-    case 'Light':
-      return getFontEditorTarget(event).style.fontWeight = 300
-    case 'Semi':
-      return getFontEditorTarget(event).style.fontWeight = 600
-    case 'Bold':
-      return getFontEditorTarget(event).style.fontWeight = 700
-    default:
-      return getFontEditorTarget(event).style.fontWeight = 400
-  }
+  var fontOptions = generateFontOptionsSelect(options, defaultOptionName, function (newOption) {
+    preview.style.fontWeight = FontWeight[newOption.weight]
+    preview.style.fontFamily = newOption.family
+  })
+
+  var range = generateFontSizeRange(function (event) {
+    preview.style.fontSize = event.target.value + "px"
+  })
+
+
+  container.append(name, fontOptions, range)
+
+  return container
 }
 
-document.querySelectorAll('.font-editor-weight').forEach(
-  function (weightEditor) {
-    weightEditor.addEventListener('change', changeFontWeight)
-  }
-)
+function generatePreview (defaultText, defaultOption) {
+  var preview = document.createElement('div')
+  preview.contentEditable = true
+  preview.spellcheck = false
+  preview.innerText = defaultText
+  preview.style.fontSize = DefaultFontSize + 'px'
+  preview.style.fontWeight = FontWeight[defaultOption.weight]
+  preview.style.fontFamily = defaultOption.family
+  preview.style.display = 'inline-block'
+
+  preview.addEventListener('focus', function () { preview.style.display = 'block' })
+  preview.addEventListener('blur', function () { preview.style.display = 'inline-block' })
+
+  return preview
+}
+
+
+document.querySelectorAll('.font-editor').forEach(function (fontEditor) {
+  var dataset = fontEditor.dataset
+  var options = JSON.parse(Array.from(fontEditor.children).find(function (x) {
+    return x.classList.contains('font-options-json')
+  }).innerHTML)
+  var defaultOption = options[dataset.defaultFontOption]
+
+  var preview = generatePreview(dataset.defaultText, defaultOption)
+  var controls = generateFontEditorControls(dataset.typefaceName, options, dataset.defaultFontOption, preview)
+
+  fontEditor.append(controls, preview)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var body = document.querySelector('body.homepage')
 if (body) {

@@ -14,27 +14,14 @@ layout: base
 {% for project in projects %}
   {% if project.layout == 'typeface' %}
     {% assign font_options = project.font_options | jsonify %}
-    {% assign default_font_option = project.font_options[project.default_font_option] %}
     <article>
-      <div>
-        {%
-          include font-editor.html
-          target="font-editor-massimo"
-          typeface_name=project.typeface_name
-          font_options=font_options
-          default_text=project.default_text
-          default_font_option=default_font_option
-        %}
-        <div
-          class="font-editor-preview"
-          id="font-editor-massimo"
-          contenteditable
-          spellcheck="false"
-          style="font-size: 100px; font-weight: {{ default_font_option.weight }}; font-family: {{ default_font_option.family }};"
-        >
-          {{project.default_text}}
-        </div>
-      </div>
+      {%
+        include font-editor.html
+        typeface_name=project.typeface_name
+        font_options=font_options
+        default_font_option=project.default_font_option
+        default_text=project.default_text
+      %}
       <footer>
         <p class="text-uppercase"><a href="{{ project.url }}">See full project</a></p>
       </footer>

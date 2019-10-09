@@ -249,10 +249,6 @@ article > div {
   /* justify-content: center; */
 }
 
-[contenteditable]::focus {
-  outline: none;
-}
-
 @font-face {
   font-family: 'Massimo Text';
   src: url('/fonts/massimo/subset-MassimoText-Bold.woff2') format('woff2'),
@@ -358,75 +354,20 @@ article > div {
   margin-bottom: 2em;
 }
 
-.font-editor-control {
-  min-width: 100%;
-}
-
-.font-editor-preview {
-  display: inline-block;
-}
-.font-editor-preview.is-editing {
-  display: block;
-}
-
-@media all and (min-width: 700px) {
-  .font-editor-control {
-    min-width: 15%;
-    margin-right: 30px;
-  }
-}
-
-select {
-	display: block;
-	font-size: inherit;
-	font-family: inherit;
-	font-weight: 700;
-	color: white;
-	padding: .6em 1.4em .5em 0;
-	width: 100%;
-	max-width: 100%;
-	box-sizing: border-box;
-	margin: 0;
-	border: none;
-	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	appearance: none;
-	background-color: #000;
-}
-
-.select-wrapper {
+.font-editor-controls .select {
   position: relative;
+  height: 30px;
+  width: 300px;
+  cursor: default;
+  user-select: none;
 }
-.select-wrapper::before {
+.font-editor-controls .select-options {
+  display: none;
   position: absolute;
-  top: 50%;
-  right: 10px;
-  content: '';
+  background: #000;
+}
+.font-editor-controls .select-options.is-active {
   display: block;
-  width: 0;
-  height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-
-  border-top: 7px solid #fff;
-  color: #fff;
-}
-select::-ms-expand {
-	display: none;
-}
-select:hover {
-	border-color: #888;
-}
-select:focus {
-	border-color: #aaa;
-	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
-	box-shadow: 0 0 0 3px -moz-mac-focusring;
-	color: #fff;
-	outline: none;
-}
-select option {
-	font-weight:normal;
 }
 
 input[type="range"] {
