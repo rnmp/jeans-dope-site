@@ -8,21 +8,11 @@ layout: project
   <div>
     {%
       include font-editor.html
-      target="font-editor-massimo"
       typeface_name=page.typeface_name
       font_options=font_options
+      default_font_option=page.default_font_option
       default_text=page.default_text
-      default_font_option=default_font_option
     %}
-    <div
-      class="font-editor-preview"
-      id="font-editor-massimo"
-      contenteditable
-      spellcheck="false"
-      style="font-size: 100px; font-weight: {{ default_font_option.weight }}; font-family: {{ default_font_option.family }};"
-    >
-      {{page.default_text}}
-    </div>
   </div>
 </article>
 

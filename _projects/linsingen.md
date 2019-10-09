@@ -14,13 +14,18 @@ typeface_name: Linsingen
 font_options:
   Moderna:
     family: Linsingen Moderna
-    weight: Regular
+    weight: Thin
   Stencil:
     family: Linsingen Stencil
-    weight: Regular
+    weight: Thin
   Vintage:
     family: Linsingen Vintage
-    weight: Regular
+    weight: Thin
+opentype_features:
+- dlig
+- salt
+- ss01
+- swsh
 default_font_option: Moderna
 default_text: LINSINGEN
 ---
