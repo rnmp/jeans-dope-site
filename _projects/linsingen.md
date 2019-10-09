@@ -1,6 +1,7 @@
 ---
-layout: project
+layout: typeface
 
+position: 2
 project_name: Linsingen Typeface
 project_headline: Inspired by Brazilian tea barrel labels
 project_brief:
@@ -14,28 +15,23 @@ project_brief:
   lines; and Linsingen Stencil. All of the three styles
   are suited for titles and headlines.
 
+typeface_name: Linsingen
+font_options:
+  Moderna:
+    family: Linsingen Moderna
+    weight: Regular
+  Stencil:
+    family: Linsingen Stencil
+    weight: Regular
+  Vintage:
+    family: Linsingen Vintage
+    weight: Regular
+
+default_font_option: Moderna
+default_text: >-
+  LINSINGEN
+
 ---
-
-<div class="d-flex justify-content-center" style="min-height: 50vh">
-  <div class="w-75">
-    {%
-      include
-      font-editor.html
-      target="font-editor-linsingen"
-      families="Linsingen Moderna, Linsingen Stencil, Linsingen Vintage"
-    %}
-    <div
-      class="font-editor-preview"
-      id="font-editor-linsingen"
-      contenteditable
-      spellcheck="false"
-      style="font-size: 100px; font-weight: normal; font-family: 'Linsingen Moderna';"
-    >
-      LINSINGEN<br/>TYPEFACE
-    </div>
-  </div>
-</div>
-
 
 <div class="viewport d-flex align-items-center justify-content-center w-100">
   <div class="w-100" style="font-family: 'Linsingen Moderna'; font-size: 5vw; width: 75%; text-transform: uppercase;">

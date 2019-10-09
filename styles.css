@@ -31,8 +31,13 @@ body > footer {
   background-image: linear-gradient(rgba(0,0,0,0) 70%, #f33 170%);
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   font-size: .8em;
+  justify-content: center;
+}
+
+body > footer a {
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -60,7 +65,7 @@ a:hover {
 }
 
 body.homepage a:hover {
-  color: #fff;
+  color: rgba(0,0,0,0.5);
 }
 
 img {
@@ -139,10 +144,11 @@ img {
 }
 
 .hidden-meanings {
-  position: fixed;
+  /* position: fixed; */
   top: 50px;
   left: 0;
-  font-family: 'Linsingen Moderna';
+  font-family: goldenbook, serif;
+  font-weight: 300;
   text-transform: uppercase;
   font-size: 48px;
   text-align: center;
@@ -150,22 +156,29 @@ img {
   height: 540px;
 }
 
-.hidden-meanings.accent {
-  z-index: 9;
+.hidden-meanings #logo {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.hidden-meanings #logo-space {
+  height: 7vw;
+  margin-bottom: 1em;
+}
+
+.hidden-meanings #logo img {
+  margin: 0 auto;
 }
 
 .hidden-meanings.accent {
-  visibility: hidden;
-}
-
-.hidden-meanings.accent span {
-  visibility: visible;
+  display: none;
+  /* z-index: 9; */
 }
 
 .wip-layout {
   position: relative;
   z-index: 1;
-  margin-top: 540px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -173,11 +186,19 @@ img {
 }
 .wip-layout img {
   max-width: 30vw;
+  margin: 0 5em;
   margin-bottom: 10vw;
 }
-.wip-layout img:nth-child(2n) {
-  max-width: 80vw;
-  max-height: 60vw;
+
+.wip-layout .image-container {
+  height: 100vh;
+  display: flex;
+}
+.wip-layout .image-container img {
+  align-self: flex-start;
+}
+.wip-layout .image-container:nth-child(2n) img {
+  align-self: center;
 }
 
 #logo img {
@@ -306,11 +327,17 @@ article > div {
 
 @font-face {
   font-family: 'Linsingen Moderna';
+  src: url('/fonts/linsingen/LinsingenModerna-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: 'Linsingen Moderna';
   src: url('/fonts/linsingen/subset-LinsingenModerna-Regular.woff2') format('woff2'),
       url('/fonts/linsingen/subset-LinsingenModerna-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: 'Linsingen Stencil';

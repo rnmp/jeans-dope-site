@@ -1,14 +1,12 @@
 <div class="font-editor-controls">
+  {{ include.typeface_name }}
   {% if include.families %}
     <div class="font-editor-control select-wrapper">
       <select
         class="font-editor-family"
         data-target="{{ include.target }}"
+        data-options="{{ include.font_options }}"
       >
-        {% assign families = include.families | split: ", " %}
-        {% for family in families %}
-          <option value="{{ family }}">{{ family }}</option>
-        {% endfor %}
       </select>
     </div>
   {% endif %}

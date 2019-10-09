@@ -1,7 +1,9 @@
 ---
 layout: project
 
+position: 1
 project_name: Curitiba Coral
+project_cover: /images/curitiba.jpg
 project_headline: Reaching heaven
 project_brief:
   In an environment where communication materials
@@ -12,6 +14,9 @@ project_brief:
   to be reached, we developed a visual system based
   on a concise symbol, vivid color gradients alongside
   a clean and direct typography.
+project_creative_field:
+  - Branding
+  - Visual Identity for Christian Choir
 
 ---
 
