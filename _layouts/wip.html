@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="hidden-meanings">
+  <a href="/" id="logo" class="project-page-logo">
+    <img src="/svgs/logo.svg" alt=""/>
+  </a>
+  <div id="logo-space"></div>
+  In this page you<br />
+  will find sketches,<br />
+  work in progress<br />
+  and random visual<br />
+  experiments
+</div>
+
+<div class="wip-layout">
+  {% for image in page.images %}
+    <a class="image-container modal-link" href="{{ image }}" target="_blank">
+      <img src="{{ image }}" alt=""/>
+    </a>
+  {% endfor %}
+</div>

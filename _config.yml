@@ -29,3 +29,8 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
+exclude:
+- tsconfig.json
+- scripts.ts
+- yarn.lock
+- package.json
