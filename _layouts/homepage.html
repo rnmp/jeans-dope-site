@@ -15,15 +15,9 @@ layout: base
   {% if project.layout == 'typeface' %}
     {% assign font_options = project.font_options | jsonify %}
     <article>
-      {%
-        include font-editor.html
-        typeface_name=project.typeface_name
-        font_options=font_options
-        default_font_option=project.default_font_option
-        default_text=project.default_text
-      %}
+      {% include font-editor.html typeface=project %}
       <footer>
-        <p class="text-uppercase"><a href="{{ project.url }}">See full project</a></p>
+        <p class="text-uppercase"><a href="{{ project.url }}">View project</a></p>
       </footer>
     </article>
   {% else %}
@@ -37,17 +31,19 @@ layout: base
           <img src="{{ project.project_cover }}" alt="" />
           <header>
             <h1>{{ project.project_name }}</h1>
-            <div class="d-flex text-uppercase">
-              <div class="w-50">
-                <h6>Creative Field</h6>
+            <div class="hover-transition">
+              <div class="d-flex text-uppercase">
+                <div class="w-50">
+                  <h6>Creative Field</h6>
+                </div>
+                <div class="w-50">
+                  {% for creative_field in project.project_creative_field %}
+                    <p>{{ creative_field }}</p>
+                  {% endfor %}
+                </div>
               </div>
-              <div class="w-50">
-                {% for creative_field in project.project_creative_field %}
-                  <p>{{ creative_field }}</p>
-                {% endfor %}
-              </div>
+              <p class="text-uppercase">View project</p>
             </div>
-            <p class="text-uppercase">See full project</p>
           </header>
         </a>
       </div>

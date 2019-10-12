@@ -2,17 +2,9 @@
 layout: project
 ---
 
-{% assign font_options = page.font_options | jsonify %}
-{% assign default_font_option = page.font_options[page.default_font_option] %}
 <article>
   <div>
-    {%
-      include font-editor.html
-      typeface_name=page.typeface_name
-      font_options=font_options
-      default_font_option=page.default_font_option
-      default_text=page.default_text
-    %}
+    {% include font-editor.html typeface=page advanced=true %}
   </div>
 </article>
 
