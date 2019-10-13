@@ -4,7 +4,7 @@ position: 2
 project_name: Royal Rage Band
 project_cover: "/images/royal-rage-band.jpg"
 project_cover_left: true
-project_headline: Inspired by Brazilian tea barrel labels
+project_headline: ajkhdkjashdksahkd
 project_brief: Linsingen is a font family inspired by Brazilian tea barrel labels
   printed with lithography in the beginning of the 20th century. The family consists
   of three styles - Linsingen Vintage, which preserves the shapes found in the original
