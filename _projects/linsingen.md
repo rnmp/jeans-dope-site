@@ -1,7 +1,6 @@
 ---
 title: Linsingen
 position: 1
-layout: typeface
 project_name: Linsingen Typeface
 project_headline: Inspired by Brazilian tea barrel labels
 project_brief: Linsingen is a font family inspired by Brazilian tea barrel labels
@@ -28,6 +27,7 @@ opentype_features:
 - swsh
 default_font_option: Moderna
 default_text: LINSINGEN
+layout: typeface
 ---
 
 <div class="viewport d-flex align-items-center justify-content-center w-100">
@@ -143,3 +143,4 @@ default_text: LINSINGEN
   <span class="mini"><i>¢</i></span>
   <span class="mini"><i>†</i></span>
 </div>
+![](/uploads/03-type.jpg)
