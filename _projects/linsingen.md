@@ -109,3 +109,4 @@ layout: project
   <span class="mini"><i>¢</i></span>
   <span class="mini"><i>†</i></span>
 </div>
+![](/uploads/03-type.jpg)

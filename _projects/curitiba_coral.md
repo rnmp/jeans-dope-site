@@ -15,6 +15,8 @@ project_creative_field:
 layout: project
 ---
 
+![](/uploads/Screen%20Shot%202019-10-13%20at%207.04.57%20PM.png)
+![](/uploads/Screen%20Shot%202019-10-12%20at%205.51.43%20AM.png)
 ![](/images/curitiba_coral/Curitiba%20Coral-01.jpg)
 ![](/images/curitiba_coral/Curitiba%20Coral-02.jpg)
 ![](/images/curitiba_coral/Curitiba%20Coral-03.jpg)

@@ -43,6 +43,7 @@ defaults:
       project_creative_field:
       - Branding
       - Visual Identity for Christian Choir
+      typeface:
       layout: project
   - scope:
       path: ""
@@ -65,7 +66,7 @@ defaults:
             Project Page
 
 exclude:
-  - tsconfig.json
-  - scripts.ts
-  - yarn.lock
-  - package.json
+- tsconfig.json
+- scripts.ts
+- yarn.lock
+- package.json
