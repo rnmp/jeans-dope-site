@@ -31,8 +31,9 @@ homepage_type_tester:
     MASSIMO
     TYPEFACE
 project_page_type_testers:
-  - font_option: Text Regular
-    default_text: |-
-      MASSIMO
-      TYPEFACE
+- font_option: Text Regular
+  default_text: |-
+    MASSIMO
+    TYPEFACE
 ---
+

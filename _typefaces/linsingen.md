@@ -19,14 +19,15 @@ homepage_type_tester:
   font_option: Moderna
   default_text: LINSINGEN
 project_page_type_testers:
-  - font_option: Moderna
-    default_text: |-
-      FABRICADA E EXPORTADA
-      POR EMILIO VON LINSINGEN
-      HERVA DE QUALIDADE
-      SUPERIOR
-  - font_option: Stencil
-    default_text: |-
-      ZONA PORTUÁRIA
-      DO ESTADO
+- font_option: Moderna
+  default_text: |-
+    FABRICADA E EXPORTADA
+    POR EMILIO VON LINSINGEN
+    HERVA DE QUALIDADE
+    SUPERIOR
+- font_option: Stencil
+  default_text: |-
+    ZONA PORTUÁRIA
+    DO ESTADO
 ---
+
