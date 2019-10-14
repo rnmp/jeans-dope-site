@@ -12,23 +12,25 @@ layout: base
 
 {% assign projects = site.projects | sort: "position", "last" %}
 {% for project in projects %}
-  {% if project.layout == 'typeface' %}
-    {% assign font_options = project.font_options | jsonify %}
+  {% if project.typeface %}
+    {% assign typeface = site.typefaces | where: "title", project.typeface | first %}
+    {% assign font_options = typeface.font_options | jsonify %}
+    {% assign type_tester = typeface.homepage_type_tester %}
     <article>
-      {% include font-editor.html typeface=project %}
+      {% include font-editor.html typeface=typeface default_font_option=type_tester.font_option default_text=type_tester.default_text %}
       <footer>
         <p class="text-uppercase"><a href="{{ project.url }}">View project</a></p>
       </footer>
     </article>
   {% else %}
     {% assign class_name = "project-thumbnail" %}
-    {% if project.project_cover_left %}
+    {% if project.project_cover_image_left %}
       {% assign class_name_alt = "project-thumbnail-alt" %}
     {% endif %}
     <div class="project-thumb d-flex">
       <div class="w-100 align-self-center">
         <a class="{{ class_name }} {{ class_name_alt | default: '' }}" href="{{ project.url }}">
-          <img src="{{ project.project_cover }}" alt="" />
+          <img src="{{ project.project_cover_image }}" alt="" />
           <header>
             <h1>{{ project.project_name }}</h1>
             <div class="hover-transition">
