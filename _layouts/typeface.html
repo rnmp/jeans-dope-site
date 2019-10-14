@@ -2,10 +2,12 @@
 layout: project
 ---
 
-<article>
-  <div>
-    {% include font-editor.html typeface=page advanced=true %}
-  </div>
-</article>
+{% for type_tester in page.project_page_type_testers %}
+  <article>
+    <div>
+      {% include font-editor.html typeface=page advanced=true default_font_option=type_tester.font_option default_text=type_tester.default_text %}
+    </div>
+  </article>
+{% endfor %}
 
 {{ content }}

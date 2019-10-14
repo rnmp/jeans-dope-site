@@ -2,13 +2,13 @@
 title: Jean Wojciechowski
 timezone: America/Sao_Paulo
 collections:
-  posts:
-    title: Posts
-    output: true
   projects:
     title: Projects
     output: true
     sort_by: position
+  typefaces:
+    title: Typefaces
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -29,6 +29,40 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      title: Project Name
+      project_name: Project Name
+      project_cover_image:
+      project_headline: Project Headline
+      project_brief: Project Brief
+      project_creative_field:
+      - Branding
+      - Visual Identity for Christian Choir
+      layout: project
+  - scope:
+      path: ""
+      type: typefaces
+    values:
+      title: Typeface Name
+      font_options:
+        Text Regular:
+          family: Font Family
+          weight: Font Weight
+      homepage_type_tester:
+        font_option: Text Regular
+        default_text: |-
+          Text to show in
+          Homepage
+      project_page_type_testers:
+        - font_option: Text Regular
+          default_text: |-
+            Text to show in
+            Project Page
 
 exclude:
   - tsconfig.json

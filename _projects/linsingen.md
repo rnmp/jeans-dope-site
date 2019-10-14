@@ -1,7 +1,6 @@
 ---
 title: Linsingen
 position: 1
-layout: typeface
 project_name: Linsingen Typeface
 project_headline: Inspired by Brazilian tea barrel labels
 project_brief: Linsingen is a font family inspired by Brazilian tea barrel labels
@@ -10,42 +9,9 @@ project_brief: Linsingen is a font family inspired by Brazilian tea barrel label
   prints; Linsingen Moderna, a contemporary interpretation of the original shapes,
   with increased contrast and sharper lines; and Linsingen Stencil. All of the three
   styles are suited for titles and headlines.
-typeface_name: Linsingen
-font_options:
-  Moderna:
-    family: Linsingen Moderna
-    weight: Thin
-  Stencil:
-    family: Linsingen Stencil
-    weight: Thin
-  Vintage:
-    family: Linsingen Vintage
-    weight: Thin
-opentype_features:
-- dlig
-- salt
-- ss01
-- swsh
-default_font_option: Moderna
-default_text: LINSINGEN
+typeface: Linsingen
+layout: project
 ---
-
-<div class="viewport d-flex align-items-center justify-content-center w-100">
-  <div class="w-100" style="font-family: 'Linsingen Moderna'; font-size: 5vw; width: 75%; text-transform: uppercase;">
-    Fabricada e exportada
-    por Emilio von Linsingen
-    herva de qualidade
-    superior
-  </div>
-</div>
-
-<div class="viewport d-flex align-items-center w-100">
-  <div class="w-100" style="font-family: 'Linsingen Stencil'; font-size: 6vw; text-align: center;">
-    ZONA PORTUÁRIA<br/>
-    DO ESTADO
-  </div>
-</div>
-
 
 <div class="font-grid" style="font-family: 'Linsingen Stencil'; font-size: 4vw;">
   <span><i>A</i></span>

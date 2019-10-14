@@ -2,10 +2,10 @@
 {% assign opentype_features = typeface.opentype_features | join: ', ' %}
 <div
   class="font-editor"
-  data-typeface-name="{{ typeface.typeface_name }}"
+  data-typeface-name="{{ typeface.title }}"
   data-font-options='{{ typeface.font_options | jsonify }}'
-  data-default-font-option="{{ typeface.default_font_option }}"
-  data-default-text="{{ typeface.default_text }}"
   data-opentype-features="{{ opentype_features }}"
+  data-default-font-option="{{ include.default_font_option }}"
+  data-default-text="{{ include.default_text }}"
 >
 </div>

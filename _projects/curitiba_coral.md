@@ -2,7 +2,7 @@
 title: Curitiba Coral
 position: 0
 project_name: Curitiba Coral
-project_cover: "/images/curitiba.jpg"
+project_cover_image: "/images/curitiba.jpg"
 project_headline: Reaching heaven
 project_brief: In an environment where communication materials tend to be outdated
   and little inventive, Curitiba Choir sought a new identity designed towards a young
