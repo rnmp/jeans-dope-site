@@ -420,7 +420,7 @@ article > div {
 }
 .font-editor-controls .multi-select-options {
   right: -20px;
-  width: 300px;
+  width: 400px;
   top: 40px;
 }
 .font-editor-controls .select.is-active .select-options,
@@ -457,7 +457,7 @@ article > div {
 
 .font-editor-controls .toggle-alignment {
   margin-left: 40px;
-  width: 100px;
+  width: 140px;
   align-items: center;
   justify-content: space-around;
 }
@@ -472,6 +472,7 @@ article > div {
 
 .font-editor-controls .toggle-alignment .left {
   background-image: url('/images/ui/left-align.svg');
+  margin-right: 40px;
 }
 
 .font-editor-controls .toggle-alignment .center {
