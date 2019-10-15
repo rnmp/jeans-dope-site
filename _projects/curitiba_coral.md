@@ -9,9 +9,9 @@ project_brief: In an environment where communication materials tend to be outdat
   audience (15-35) that would be bold, contemporary and relevant. With clear goals
   to be reached, we developed a visual system based on a concise symbol, vivid color
   gradients alongside a clean and direct typography.
-project_creative_field:
-- Branding
-- Visual Identity for Christian Choir
+project_creative_field: Visual Identity
+project_client: Christian Choir
+project_headline_homepage: Using colors to reach heaven
 layout: project
 ---
 

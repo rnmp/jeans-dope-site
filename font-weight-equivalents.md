@@ -1,9 +1,0 @@
-100 Hairline
-200 Thin
-300 Light
-400 Regular
-500 Semi-Bold
-600 Bold
-700 Extra-Bold
-800 Black
-900 Extra-Black

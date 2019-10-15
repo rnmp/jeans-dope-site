@@ -12,16 +12,16 @@ layout: base
   </div>
   <div class="w-50">
     <h2 class="font-weight-light">{{ page.project_headline }}</h2>
-    <p class="font-weight-light">{{ page.project_brief }}</p>
+    <div class="font-weight-light">{{ page.project_brief | markdownify }}</div>
   </div>
 </div>
 
 {% if page.typeface %}
   {% assign typeface = site.typefaces | where: 'title', page.typeface | first %}
   {% for type_tester in typeface.project_page_type_testers %}
-    <article>
+    <article class="project-page-type-tester">
       <div>
-        {% include font-editor.html typeface=typeface advanced=true default_font_option=type_tester.font_option default_text=type_tester.default_text %}
+        {% include font-editor.html typeface=typeface default_font_option=type_tester.font_option default_text=type_tester.default_text advanced=true %}
       </div>
     </article>
   {% endfor %}

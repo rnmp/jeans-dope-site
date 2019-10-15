@@ -17,7 +17,7 @@ layout: base
     {% assign font_options = typeface.font_options | jsonify %}
     {% assign type_tester = typeface.homepage_type_tester %}
     <article>
-      {% include font-editor.html typeface=typeface default_font_option=type_tester.font_option default_text=type_tester.default_text %}
+      {% include font-editor.html typeface=typeface default_font_option=type_tester.font_option default_text=type_tester.default_text advanced=false %}
       <footer>
         <p class="text-uppercase"><a href="{{ project.url }}">View project</a></p>
       </footer>
@@ -32,16 +32,18 @@ layout: base
         <a class="{{ class_name }} {{ class_name_alt | default: '' }}" href="{{ project.url }}">
           <img src="{{ project.project_cover_image }}" alt="" />
           <header>
-            <h1>{{ project.project_name }}</h1>
+            <h1 class="mb-0">{{ project.project_name }}</h1>
+            <h6 class="project-headline-homepage">{{ project.project_headline_homepage | default: project.project_headline }}</h6>
+
             <div class="hover-transition">
               <div class="d-flex text-uppercase">
                 <div class="w-50">
-                  <h6>Creative Field</h6>
+                  <h6 class="mb-0">Creative Field</h6>
+                  <p class="font-weight-light">{{ project.project_creative_field }}</p>
                 </div>
                 <div class="w-50">
-                  {% for creative_field in project.project_creative_field %}
-                    <p>{{ creative_field }}</p>
-                  {% endfor %}
+                  <h6 class="mb-0">Client</h6>
+                  <p class="font-weight-light">{{ project.project_client }}</p>
                 </div>
               </div>
               <p class="text-uppercase">View project</p>

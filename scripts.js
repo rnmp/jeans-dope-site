@@ -189,14 +189,16 @@ function generateFontEditorControls(settings, preview) {
         preview.style.fontSize = event.target.value + "px";
     });
     container.append(name, fontOptions, range);
-    if (settings.opentypeFeatures) {
+    if (settings.opentypeFeatures && settings.isAdvanced) {
         const opentypeFeaturesMultiSelect = generateOpenTypeMultiSelect(settings.opentypeFeatures, features => {
             preview.style.fontFeatureSettings = features.map(f => `"${f}"`).join(', ');
         });
         container.append(opentypeFeaturesMultiSelect);
     }
-    const toggleAlignment = generateAlignmentToggle(preview);
-    container.append(toggleAlignment);
+    if (settings.isAdvanced) {
+        const toggleAlignment = generateAlignmentToggle(preview);
+        container.append(toggleAlignment);
+    }
     return container;
 }
 function generatePreview({ defaultText, fontOptions, defaultFontOption }) {
@@ -233,6 +235,7 @@ function sanitizeSettings(dirtyFontSettings) {
             :
                 undefined),
         fontOptions: JSON.parse(dirtyFontSettings.fontOptions),
+        isAdvanced: JSON.parse(dirtyFontSettings.isAdvanced),
     };
 }
 // Modal

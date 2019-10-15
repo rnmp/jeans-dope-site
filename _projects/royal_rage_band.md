@@ -11,9 +11,9 @@ project_brief: Linsingen is a font family inspired by Brazilian tea barrel label
   prints; Linsingen Moderna, a contemporary interpretation of the original shapes,
   with increased contrast and sharper lines; and Linsingen Stencil. All of the three
   styles are suited for titles and headlines.
-project_creative_field:
-- Poster Design
-- Tour Posters for Thrash Metal Band Royal Rage
+project_creative_field: Poster Design
+project_client: Royal Rage
+project_headline_homepage: Tour poster for thrash metal band royal rage
 layout: project
 ---
 
