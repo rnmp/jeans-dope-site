@@ -152,10 +152,7 @@ img {
   margin-bottom: 200px;
 }
 
-.hidden-meanings {
-  /* position: fixed; */
-  top: 50px;
-  left: 0;
+.wip-header {
   font-family: goldenbook, serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -164,25 +161,17 @@ img {
   width: 100%;
   height: 540px;
 }
-
-.hidden-meanings #logo {
+.wip-header #logo {
   position: fixed;
   left: 0;
   width: 100%;
-  z-index: 1000;
 }
-.hidden-meanings #logo-space {
+.wip-header #logo-space {
   height: 7vw;
   margin-bottom: 1em;
 }
-
-.hidden-meanings #logo img {
+.wip-header #logo {
   margin: 0 auto;
-}
-
-.hidden-meanings.accent {
-  display: none;
-  /* z-index: 9; */
 }
 
 .wip-layout {
