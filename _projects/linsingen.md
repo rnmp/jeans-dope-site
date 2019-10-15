@@ -13,7 +13,7 @@ typeface: Linsingen
 layout: project
 ---
 
-<div class="font-grid" style="font-family: 'Linsingen Stencil'; font-size: 4vw;">
+<div class="font-grid" style="font-family: 'Linsingen Stencil'; font-size: 4vw; font-weight: 300;">
   <span><i>A</i></span>
   <span><i>B</i></span>
   <span><i>C</i></span>
