@@ -12,7 +12,7 @@ layout: base
   </div>
   <div class="w-50">
     <h2 class="font-weight-light">{{ page.project_headline }}</h2>
-    <p class="font-weight-light">{{ page.project_brief }}</p>
+    <div class="font-weight-light">{{ page.project_brief | markdownify }}</div>
   </div>
 </div>
 
