@@ -2,9 +2,6 @@
 title: Jean Wojciechowski
 timezone: America/Sao_Paulo
 collections:
-  posts:
-    title: Posts
-    output: true
   projects:
     title: Projects
     output: true
@@ -12,52 +9,56 @@ collections:
   typefaces:
     title: Typefaces
     output: false
-  posts:
-    title: Work In Progress
-    output: false
   uploads:
     title: Uploads
+    output: true
+  posts:
+    title: Work In Progress
     output: true
 defaults:
 - scope:
     path: ''
+    type: wip
+  values:
+    image: 
+- scope:
+    path: ''
     type: projects
   values:
-    title: Project Name
-    project_name: Project Name
-    project_cover_image:
-    project_headline: Project Headline
-    project_brief: Project Brief
-    project_creative_field:
-    - Branding
-    - Visual Identity for Christian Choir
-    typeface:
+    title: Title
+    project_name: Name
+    project_headline: Headline
+    project_brief: Brief
+    project_creative_field: Creative Field
+    project_client: Client
+    project_headline_homepage: 
+    project_cover_image: 
+    typeface: 
     layout: project
 - scope:
     path: ''
     type: typefaces
   values:
     title: Typeface Name
-    font_options:
-      Text Regular:
-        family: Font Family
-        weight: Font Weight
+    font_options: 
     homepage_type_tester:
-      font_option: Text Regular
+      font_option: Option Name
       default_text: |-
         Text to show in
         Homepage
     project_page_type_testers:
-    - font_option: Text Regular
+    - font_option: Option Name
       default_text: |-
         Text to show in
         Project Page
+    opentype_features:
+    - E.g. "dlig", "salt", "ss01", "swsh"
 email: your-email@example.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl:
-url:
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 links:
@@ -68,47 +69,7 @@ links:
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
-
-defaults:
-  - scope:
-      path: ""
-      type: wip
-    values:
-      image:
-  - scope:
-      path: ""
-      type: projects
-    values:
-      title: Title
-      project_name: Name
-      project_headline: Headline
-      project_brief: Brief
-      project_creative_field: Creative Field
-      project_client: Client
-      project_headline_homepage:
-      project_cover_image:
-      typeface:
-      layout: project
-  - scope:
-      path: ""
-      type: typefaces
-    values:
-      title: Typeface Name
-      font_options:
-      homepage_type_tester:
-        font_option: Option Name
-        default_text: |-
-          Text to show in
-          Homepage
-      project_page_type_testers:
-        - font_option: Option Name
-          default_text: |-
-            Text to show in
-            Project Page
-      opentype_features:
-        - E.g. "dlig", "salt", "ss01", "swsh"
-
+- jekyll-feed
 exclude:
 - tsconfig.json
 - scripts.ts
