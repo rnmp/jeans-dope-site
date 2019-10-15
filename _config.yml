@@ -18,7 +18,7 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: wip
+    type: posts
   values:
     image: 
 - scope:
