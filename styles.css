@@ -192,7 +192,7 @@ img {
 }
 
 .wip-layout .image-container {
-  height: 100vh;
+  height: 75vw;
   display: flex;
 }
 .wip-layout .image-container img {
