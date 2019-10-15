@@ -140,6 +140,10 @@ img {
   line-height: 1.2;
 }
 
+.project-page-type-tester {
+  margin-bottom: 200px;
+}
+
 .hidden-meanings {
   /* position: fixed; */
   top: 50px;

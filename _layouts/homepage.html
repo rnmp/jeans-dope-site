@@ -17,7 +17,7 @@ layout: base
     {% assign font_options = typeface.font_options | jsonify %}
     {% assign type_tester = typeface.homepage_type_tester %}
     <article>
-      {% include font-editor.html typeface=typeface default_font_option=type_tester.font_option default_text=type_tester.default_text %}
+      {% include font-editor.html typeface=typeface default_font_option=type_tester.font_option default_text=type_tester.default_text advanced=false %}
       <footer>
         <p class="text-uppercase"><a href="{{ project.url }}">View project</a></p>
       </footer>

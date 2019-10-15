@@ -19,9 +19,9 @@ layout: base
 {% if page.typeface %}
   {% assign typeface = site.typefaces | where: 'title', page.typeface | first %}
   {% for type_tester in typeface.project_page_type_testers %}
-    <article>
+    <article class="project-page-type-tester">
       <div>
-        {% include font-editor.html typeface=typeface advanced=true default_font_option=type_tester.font_option default_text=type_tester.default_text %}
+        {% include font-editor.html typeface=typeface default_font_option=type_tester.font_option default_text=type_tester.default_text advanced=true %}
       </div>
     </article>
   {% endfor %}

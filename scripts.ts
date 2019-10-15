@@ -104,13 +104,14 @@ interface FontSettings {
     [k: string]: FontOption
   }
   defaultFontOption: string
-
   opentypeFeatures?: OpenTypeFeature[]
+  isAdvanced?: boolean
 }
 
-interface DirtyFontSettings extends Omit<FontSettings, 'fontOptions' | 'opentypeFeatures'> {
+interface DirtyFontSettings extends Omit<FontSettings, 'fontOptions' | 'opentypeFeatures' | 'isAdvanced'> {
   fontOptions: string
   opentypeFeatures?: string
+  isAdvanced: string
 }
 type HTMLFontEditorElement = HTMLElement & { dataset: DirtyFontSettings }
 
@@ -264,7 +265,7 @@ function generateFontEditorControls (settings: FontSettings, preview: HTMLDivEle
 
   container.append(name, fontOptions, range)
 
-  if (settings.opentypeFeatures) {
+  if (settings.opentypeFeatures && settings.isAdvanced) {
     const opentypeFeaturesMultiSelect = generateOpenTypeMultiSelect(
       settings.opentypeFeatures,
       features => {
@@ -274,10 +275,10 @@ function generateFontEditorControls (settings: FontSettings, preview: HTMLDivEle
     container.append(opentypeFeaturesMultiSelect)
   }
 
-
-  const toggleAlignment = generateAlignmentToggle(preview)
-
-  container.append(toggleAlignment)
+  if (settings.isAdvanced) {
+    const toggleAlignment = generateAlignmentToggle(preview)
+    container.append(toggleAlignment)
+  }
 
   return container
 }
@@ -327,6 +328,7 @@ function sanitizeSettings (dirtyFontSettings: DirtyFontSettings): FontSettings {
         undefined
     ),
     fontOptions: JSON.parse(dirtyFontSettings.fontOptions),
+    isAdvanced: JSON.parse(dirtyFontSettings.isAdvanced),
   }
 }
 
