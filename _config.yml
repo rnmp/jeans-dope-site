@@ -9,7 +9,7 @@ collections:
   typefaces:
     title: Typefaces
     output: false
-  wip:
+  posts:
     title: Work In Progress
     output: false
   uploads:
