@@ -12,8 +12,6 @@ layout: project
 ---
 
 <div class="font-grid" style="font-family: 'Linsingen Moderna'; font-size: 4vw; font-weight: 300;">
-  <span><i> Linsingen Moderna</i></span>
-  <div class="break"></div>
   <span><i>A</i></span>
   <span><i>B</i></span>
   <span><i>C</i></span>
@@ -112,6 +110,7 @@ layout: project
 </div>
 
 <div class="font-grid" style="font-family: 'Linsingen Stencil'; font-size: 4vw; font-weight: 300;">
+  <div class="break"></div>
   <span><i>A</i></span>
   <span><i>B</i></span>
   <span><i>C</i></span>
@@ -176,7 +175,6 @@ layout: project
   <span><i>8</i></span>
   <span><i>9</i></span>
   <span><i>0</i></span>
-  <span class="break"></span>
   <span class="mini"><i>(</i></span>
   <span class="mini"><i>{</i></span>
   <span class="mini"><i>[</i></span>
@@ -206,10 +204,10 @@ layout: project
   <span class="mini"><i>§</i></span>
   <span class="mini"><i>¢</i></span>
   <span class="mini"><i>†</i></span>
-  <div class="break"></div>
 </div>
 
 <div class="font-grid" style="font-family: 'Linsingen Vintage'; font-size: 4vw; font-weight: 300;">
+  <div class="break"></div>
   <span><i>A</i></span>
   <span><i>B</i></span>
   <span><i>C</i></span>
@@ -274,7 +272,6 @@ layout: project
   <span><i>8</i></span>
   <span><i>9</i></span>
   <span><i>0</i></span>
-  <span class="break"></span>
   <span class="mini"><i>(</i></span>
   <span class="mini"><i>{</i></span>
   <span class="mini"><i>[</i></span>
@@ -304,5 +301,4 @@ layout: project
   <span class="mini"><i>§</i></span>
   <span class="mini"><i>¢</i></span>
   <span class="mini"><i>†</i></span>
-  <div class="break"></div>
 </div>
