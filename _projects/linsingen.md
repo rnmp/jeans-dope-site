@@ -12,31 +12,31 @@ layout: project
 ---
 
 <div class="font-grid" style="font-family: 'Linsingen Moderna'; font-size: 4vw; font-weight: 300;">
-  <span><i>AA B C D E F G H I J K L M N O P Q R S T U V W X Y Z</i></span>
+  <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
   <div class="break"></div>
-  <span><i>a b c d e f g h i j k l m n o p q r s t u v w x y z</i></span>
+  <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
   <div class="break"></div>
-  <span><i>1 2 3 4 5 6 7 8 9 0</i></span>
+  <p>1 2 3 4 5 6 7 8 9 0</p>
   <div class="break"></div>
-  <span><i>$ € £ % @ & § ¢ †</i></span>
+  <p>$ € £ % @ & § ¢ †</p>
 </div>
 
 <div class="font-grid" style="font-family: 'Linsingen Stencil'; font-size: 4vw; font-weight: 300;">
-  <p>ABCDEFGHIJKLMN O P Q R S T U V W X Y Z<p>
+  <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
   <div class="break"></div>
-  <span><i>a b c d e f g h i j k l m n o p q r s t u v w x y z</i></span>
+  <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
   <div class="break"></div>
-  <span><i>1 2 3 4 5 6 7 8 9 0</i></span>
+  <p>1 2 3 4 5 6 7 8 9 0</p>
   <div class="break"></div>
   <span><i>$ € £ % @ & § ¢ †</i></span>
 </div>
 
 <div class="font-grid" style="font-family: 'Linsingen Vintage'; font-size: 4vw; font-weight: 300;">
-  <span><i>AA B C D E F G H I J K L M N O P Q R S T U V W X Y Z</i></span>
+  <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
   <div class="break"></div>
-  <span><i>a b c d e f g h i j k l m n o p q r s t u v w x y z</i></span>
+  <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
   <div class="break"></div>
-  <span><i>1 2 3 4 5 6 7 8 9 0</i></span>
+  <p>1 2 3 4 5 6 7 8 9 0</p>
   <div class="break"></div>
-  <span><i>$ € £ % @ & § ¢ †</i></span>
+  <p>$ € £ % @ & § ¢ †</p>
 </div>
