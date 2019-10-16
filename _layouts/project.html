@@ -6,13 +6,13 @@ layout: base
   <img src="/svgs/logo.svg" alt=""/>
 </a>
 
-<div class="d-flex viewport-50">
+<div class="d-flex project-page-header">
   <div class="w-50">
     <h2 class="font-weight-light">{{ page.project_name }}</h2>
   </div>
   <div class="w-50">
     <h2 class="font-weight-light">{{ page.project_headline }}</h2>
-    <div class="font-weight-light">{{ page.project_brief | markdownify }}</div>
+    <div class="font-weight-light collapse">{{ page.project_brief | markdownify }}</div>
   </div>
 </div>
 
