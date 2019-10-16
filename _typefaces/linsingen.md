@@ -12,9 +12,8 @@ font_options:
     weight: Thin
 homepage_type_tester:
   font_option: Moderna
-  default_text: |-
-    A TYPEFACE INSPIRED
-    BY EARLY TWENTIETH CENTURY TEA BARREL LABELS
+  default_text: "A TYPEFACE INSPIRED\nBY EARLY TWENTIETH \nCENTURY BRAZILIAN \nTEA
+    BARREL LABELS"
 project_page_type_testers:
 - font_option: STENCIL
   default_text: |-
