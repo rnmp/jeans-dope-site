@@ -12,7 +12,7 @@ font_options:
     weight: Thin
 homepage_type_tester:
   font_option: Moderna
-  default_text: LINSINGEN
+  default_text: Linsingen Typeface
 project_page_type_testers:
 - font_option: Moderna
   default_text: |-
@@ -21,11 +21,9 @@ project_page_type_testers:
     HERVA-MATTE DE QUALIDADE
     EXTRA SUPERIOR.
 - font_option: Moderna
-  default_text: Em fins do século 19, Curitiba começou a se tornar agitada com a proliferação
-    de serrarias e de exímios tanoeiros que montavam barricas para armazenar o mate
-    vindo dos engenhos. A demanda só aumentava nas fundições, responsáveis pela fabricação
-    de aduelas de metal para as barricas. Faltava a comunicação visual que informasse,
-    de maneira atraente aos olhos do consumidor, o nome do engenho e a marca do produto.
+  default_text: 'Em fins do século 19, Curitiba começou a se tornar agitada com a
+    proliferação de serrarias e de exímios tanoeiros que montavam barricas para armazenar
+    o mate vindo dos engenhos vigentes. '
 - font_option: Stencil
   default_text: |-
     ZONA PORTUÁRIA
