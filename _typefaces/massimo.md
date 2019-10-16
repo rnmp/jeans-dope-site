@@ -26,7 +26,7 @@ font_options:
     family: Massimo Display
     weight: Bold
 homepage_type_tester:
-  font_option: DISPLAY BOLD
+  font_option: Display Bold
   default_text: A BESPOKE GROTESQUE TO REFLECT THE VALUES AND AESTHETICS OF MASSIMO
     STUDIO
 project_page_type_testers:
