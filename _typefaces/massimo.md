@@ -30,11 +30,8 @@ homepage_type_tester:
   default_text: A BESPOKE GROTESQUE TO REFLECT THE VALUES AND AESTHETICS OF MASSIMO
     STUDIO
 project_page_type_testers:
-- font_option: Text Regular
-  default_text: And in the convergence between identity and consumption lies one of
-    the main features of our age, because contemporary society relates to its members
-    primarily as consumers, and only secondarily, and in part, involves them also
-    as producers. To meet the standards of normality and to be recognized as a mature
-    and respectable members of society.
+- font_option: Display Light
+  default_text: IN THE CONVERGENCE BETWEEN IDENTITY AND CONSUMPTION LIES ONE OF THE
+    MAIN FEATURES OF OUR AGE
 ---
 
