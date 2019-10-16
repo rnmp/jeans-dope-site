@@ -26,14 +26,12 @@ font_options:
     family: Massimo Display
     weight: Bold
 homepage_type_tester:
-  font_option: Text Regular
-  default_text: |-
-    MASSIMO
-    TYPEFACE
+  font_option: Display Bold
+  default_text: A BESPOKE GROTESQUE TO REFLECT THE VALUES AND AESTHETICS OF MASSIMO
+    STUDIO
 project_page_type_testers:
-- font_option: Text Regular
-  default_text: |-
-    MASSIMO
-    TYPEFACE
+- font_option: Display Light
+  default_text: IN THE CONVERGENCE BETWEEN IDENTITY AND CONSUMPTION LIES ONE OF THE
+    MAIN FEATURES OF OUR AGE.
 ---
 
