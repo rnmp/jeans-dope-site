@@ -16,7 +16,7 @@ layout: project
   <div class="break"></div>
   <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
   <div class="break"></div>
-  <p>1 2 3 4 5 6 7 8 9 0 ( { [ . , ¡ ! ¿ ? * ' ‘ ’ " “ ” ] } ) $ € £ % @ & § ¢ †</p>
+  <p>1 2 3 4 5 6 7 8 9 0 $ € £ % @ & § ¢ † ( { [ . , ¡ ! ¿ ? * ' ‘ ’ " “ ” ] } )</p>
 </div>
 
 <div class="font-grid" style="font-family: 'Linsingen Moderna'; font-size: 6vw; font-weight: 300;">
@@ -27,9 +27,7 @@ layout: project
   <div class="break"></div>
   <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
   <div class="break"></div>
-  <p>1 2 3 4 5 6 7 8 9 0</p>
-  <div class="break"></div>
-  <p>$ € £ % @ & § ¢ †</p>
+  <p>1 2 3 4 5 6 7 8 9 0 $ € £ % @ & § ¢ † ( { [ . , ¡ ! ¿ ? * ' ‘ ’ " “ ” ] } )</p>
 </div>
 
 <div class="font-grid" style="font-family: 'Linsingen Moderna'; font-size: 6vw; font-weight: 300;">
@@ -40,7 +38,5 @@ layout: project
   <div class="break"></div>
   <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
   <div class="break"></div>
-  <p>1 2 3 4 5 6 7 8 9 0</p>
-  <div class="break"></div>
-  <p>$ € £ % @ & § ¢ †</p>
+  <p>1 2 3 4 5 6 7 8 9 0 $ € £ % @ & § ¢ † ( { [ . , ¡ ! ¿ ? * ' ‘ ’ " “ ” ] } )</p>
 </div>
