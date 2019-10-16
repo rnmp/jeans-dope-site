@@ -260,7 +260,6 @@ function showModal(el) {
     }
     modalContainer.childNodes.forEach(c => modalContainer.removeChild(c));
     const image = img(el.href);
-    // image.addEventListener('click', e => e.stopPropagation())
     modalContainer.append(image);
     return modalContainer.toggleActive();
 }
@@ -269,4 +268,30 @@ modalLinks.forEach(modalLink => {
         e.preventDefault();
         showModal(modalLink);
     });
+});
+// Collapse
+document.querySelectorAll('.collapse').forEach(element => {
+    const initialText = element.innerText;
+    const initialHTML = element.innerHTML;
+    if (initialText.length > 500) {
+        let isActive = false;
+        const collapsedText = initialText.substr(0, 500) + '…';
+        const newTextContainer = div();
+        newTextContainer.innerText = collapsedText;
+        element.innerHTML = '';
+        element.append(newTextContainer);
+        const expandable = div('more-link', '+ read more');
+        expandable.addEventListener('click', () => {
+            isActive = !isActive;
+            if (isActive) {
+                expandable.innerText = '- collapse';
+                newTextContainer.innerHTML = initialHTML;
+            }
+            else {
+                expandable.innerHTML = '+ read more';
+                newTextContainer.innerText = collapsedText;
+            }
+        });
+        element.append(expandable);
+    }
 });
