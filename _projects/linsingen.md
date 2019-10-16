@@ -110,6 +110,7 @@ layout: project
 </div>
 
 <div class="font-grid" style="font-family: 'Linsingen Stencil'; font-size: 4vw; font-weight: 300;">
+  <span><i>—</i></span>
   <div class="break"></div>
   <span><i>A</i></span>
   <span><i>B</i></span>
@@ -175,6 +176,7 @@ layout: project
   <span><i>8</i></span>
   <span><i>9</i></span>
   <span><i>0</i></span>
+  <span class="break"></span>
   <span class="mini"><i>(</i></span>
   <span class="mini"><i>{</i></span>
   <span class="mini"><i>[</i></span>
@@ -272,6 +274,7 @@ layout: project
   <span><i>8</i></span>
   <span><i>9</i></span>
   <span><i>0</i></span>
+  <span class="break"></span>
   <span class="mini"><i>(</i></span>
   <span class="mini"><i>{</i></span>
   <span class="mini"><i>[</i></span>
