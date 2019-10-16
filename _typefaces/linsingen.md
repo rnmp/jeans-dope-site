@@ -12,9 +12,9 @@ font_options:
     weight: Thin
 homepage_type_tester:
   font_option: Moderna
-  default_text: Linsingen Typeface
+  default_text: "A TYPEFACE INSPIRED\nBY EARLY TWENTIETH CENTURY \nTEA BARREL LABELS"
 project_page_type_testers:
-- font_option: Moderna
+- font_option: STENCIL
   default_text: |-
     FABRICADA E EXPORTADA
     POR EMÍLIO VON LINSINGEN.
@@ -24,7 +24,7 @@ project_page_type_testers:
   default_text: "Em fins do século 19, Curitiba começou a se tornar agitada com a
     proliferação de serrarias e de exímios tanoeiros que montavam barricas para armazenar
     o mate vindo \ndos engenhos vigentes. "
-- font_option: Stencil
+- font_option: VINTAGE
   default_text: |-
     ZONA PORTUÁRIA
     DO ESTADO
