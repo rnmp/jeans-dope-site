@@ -209,6 +209,7 @@ layout: project
 </div>
 
 <div class="font-grid" style="font-family: 'Linsingen Vintage'; font-size: 4vw; font-weight: 300;">
+  <span><i>—</i></span>
   <div class="break"></div>
   <span><i>A</i></span>
   <span><i>B</i></span>
@@ -304,4 +305,8 @@ layout: project
   <span class="mini"><i>§</i></span>
   <span class="mini"><i>¢</i></span>
   <span class="mini"><i>†</i></span>
+</div>
+
+<div class="font-grid" style="font-family: 'Linsingen Moderna'; font-size: 4vw; font-weight: 300;">
+  <span><i>ABCDEFGHIJKLMNOPQRSTUVWXYZ</i></span>
 </div>
