@@ -17,13 +17,13 @@ project_page_type_testers:
 - font_option: Moderna
   default_text: |-
     FABRICADA E EXPORTADA
-    POR EMILIO VON LINSINGEN.
+    POR EMÍLIO VON LINSINGEN.
     HERVA-MATTE DE QUALIDADE
     EXTRA SUPERIOR.
 - font_option: Moderna
-  default_text: 'Em fins do século 19, Curitiba começou a se tornar agitada com a
+  default_text: "Em fins do século 19, Curitiba começou a se tornar agitada com a
     proliferação de serrarias e de exímios tanoeiros que montavam barricas para armazenar
-    o mate vindo dos engenhos vigentes. '
+    o mate vindo \ndos engenhos vigentes. "
 - font_option: Stencil
   default_text: |-
     ZONA PORTUÁRIA
