@@ -76,7 +76,6 @@ layout: project
   <span><i>8</i></span>
   <span><i>9</i></span>
   <span><i>0</i></span>
-  <span class="break"></span>
   <span class="mini"><i>(</i></span>
   <span class="mini"><i>{</i></span>
   <span class="mini"><i>[</i></span>
