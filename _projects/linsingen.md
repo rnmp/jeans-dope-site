@@ -22,7 +22,7 @@ layout: project
 </div>
 
 <div class="font-grid" style="font-family: 'Linsingen Stencil'; font-size: 4vw; font-weight: 300;">
-  <span><i>AA B C D E F G H I J K L M N O P Q R S T U V W X Y Z</i></span>
+  <p>ABCDEFGHIJKLMN O P Q R S T U V W X Y Z<p>
   <div class="break"></div>
   <span><i>a b c d e f g h i j k l m n o p q r s t u v w x y z</i></span>
   <div class="break"></div>
