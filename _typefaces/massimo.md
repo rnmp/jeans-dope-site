@@ -32,6 +32,6 @@ homepage_type_tester:
 project_page_type_testers:
 - font_option: Display Light
   default_text: IN THE CONVERGENCE BETWEEN IDENTITY AND CONSUMPTION LIES ONE OF THE
-    MAIN FEATURES OF OUR AGE
+    MAIN FEATURES OF OUR AGE.
 ---
 
