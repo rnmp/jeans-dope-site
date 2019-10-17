@@ -322,8 +322,7 @@ article > div {
 
 @font-face {
   font-family: 'Linsingen Vintage';
-  src: url('/fonts/linsingen/subset-LinsingenVintage-Regular.woff2') format('woff2'),
-      url('/fonts/linsingen/subset-LinsingenVintage-Regular.woff') format('woff');
+  src: url('/fonts/linsingen/LinsingenVintage-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -334,18 +333,10 @@ article > div {
   font-weight: normal;
   font-style: normal;
 }
-/* @font-face {
-  font-family: 'Linsingen Moderna';
-  src: url('/fonts/linsingen/subset-LinsingenModerna-Regular.woff2') format('woff2'),
-      url('/fonts/linsingen/subset-LinsingenModerna-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-} */
 
 @font-face {
   font-family: 'Linsingen Stencil';
-  src: url('/fonts/linsingen/subset-LinsingenStencil-Regular.woff2') format('woff2'),
-      url('/fonts/linsingen/subset-LinsingenStencil-Regular.woff') format('woff');
+  src: url('/fonts/linsingen/LinsingenStencil-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
