@@ -27,8 +27,7 @@ font_options:
     weight: Bold
 homepage_type_tester:
   font_option: Display Bold
-  default_text: A BESPOKE GROTESQUE TO REFLECT THE VALUES AND AESTHETICS OF MASSIMO
-    STUDIO
+  default_text: "A BESPOKE GROTESQUE TO REFLECT THE VALUES \nOF MASSIMO STUDIO"
 project_page_type_testers:
 - font_option: Display Light
   default_text: IN THE CONVERGENCE BETWEEN IDENTITY AND CONSUMPTION LIES ONE OF THE
