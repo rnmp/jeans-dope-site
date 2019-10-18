@@ -29,3 +29,4 @@ layout: project
 ![](/images/curitiba_coral/Curitiba%20Coral-09.jpg)
 ![20181211_162004-edit.jpg](/uploads/20181211_162004-edit.jpg)
 ![20181211_160635-edit.jpg](/uploads/20181211_160635-edit.jpg)
+![20181211_161610-edit.jpg](/uploads/20181211_161610-edit.jpg)
