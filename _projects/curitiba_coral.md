@@ -19,3 +19,4 @@ layout: project
 ---
 
 ![](/uploads/Curitiba%20Coral-Site-comp-06.jpg)
+![](/uploads/Curitiba%20Coral-Site-comp06144.jpg)
