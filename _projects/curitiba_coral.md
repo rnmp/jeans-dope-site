@@ -18,15 +18,4 @@ project_cover_image: "/images/curitiba.jpg"
 layout: project
 ---
 
-![](/images/curitiba_coral/Curitiba%20Coral-01.jpg)
-![](/images/curitiba_coral/Curitiba%20Coral-02.jpg)
-![](/images/curitiba_coral/Curitiba%20Coral-03.jpg)
-![](/images/curitiba_coral/Curitiba%20Coral-04.jpg)
-![](/images/curitiba_coral/Curitiba%20Coral-05.jpg)
-![](/images/curitiba_coral/Curitiba%20Coral-06.jpg)
-![](/images/curitiba_coral/Curitiba%20Coral-07.jpg)
-![20181211_162004-edit.jpg](/uploads/20181211_162004-edit.jpg)
-![20181211_160635-edit.jpg](/uploads/20181211_160635-edit.jpg)
-![20181211_161610-edit.jpg](/uploads/20181211_161610-edit.jpg)
-![](/images/curitiba_coral/Curitiba%20Coral-08.jpg)
-![](/images/curitiba_coral/Curitiba%20Coral-09.jpg)
+![](/uploads/%23Curitiba%20Coral-Site-01.png)
