@@ -40,8 +40,3 @@ layout: project
 ![](/uploads/Curitiba%20Coral-11d.jpg)
 ![](/uploads/Curitiba%20Coral-fim%201.jpg)
 ![](/uploads/Curitiba%20Coral-fim.jpg)
-
-
-
-
-
