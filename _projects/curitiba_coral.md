@@ -21,7 +21,7 @@ layout: project
 ![](/uploads/Curitiba%20Coral-01.jpg)
 ![](/uploads/Curitiba%20Coral-02.jpg)
 ![](/uploads/Curitiba%20Coral-03.jpg)
-![](/uploads/Curitiba%20Coral-04_resize.jpg)
+![](/uploads/Curitiba%20Coral-04.jpg)
 ![](/uploads/Curitiba%20Coral-Site-comp_06-07.jpg)
 ![](/uploads/Curitiba%20Coral-08_resize.jpg)
 ![](/uploads/Curitiba%20Coral-09.jpg)
@@ -30,15 +30,16 @@ layout: project
 ![](/uploads/Curitiba%20Coral-11b.jpg)
 ![](/uploads/Curitiba%20Coral-11c.jpg)
 ![](/uploads/Curitiba%20Coral-11d.jpg)
-![](/uploads/Curitiba%20Coral-12_resize.jpg)
 ![](/uploads/Curitiba%20Coral-Site-comp_13-14.jpg)
 ![](/uploads/Curitiba%20Coral-Site-comp_15-16.jpg)
-![](/uploads/Curitiba%20Coral-Site-comp72_15-16.jpg)
 ![](/uploads/Curitiba%20Coral-17.jpg)
 ![](/uploads/Curitiba%20Coral-Site-comp_18-19.jpg)
 ![](/uploads/Curitiba%20Coral-20.jpg)
 ![](/uploads/Curitiba%20Coral-22.jpg)
 ![](/uploads/Curitiba%20Coral-23jpg)
+![](/uploads/Curitiba%20Coral-fim%201.jpg)
+![](/uploads/Curitiba%20Coral-fim.jpg)
+
 
 
 
