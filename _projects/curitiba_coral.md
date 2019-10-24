@@ -19,7 +19,7 @@ layout: project
 ---
 
 ![](/uploads/Curitiba%20Coral-01.jpg)
-![](/uploads/Curitiba%20Coral-02.jpg)
+![](/uploads/Curitiba%20Coral-02.png)
 ![](/uploads/Curitiba%20Coral-03.jpg)
 ![](/uploads/Curitiba%20Coral-04.jpg)
 ![](/uploads/Curitiba%20Coral-Site-comp_05.jpg)
