@@ -18,4 +18,4 @@ project_cover_image: "/images/curitiba.jpg"
 layout: project
 ---
 
-![](/uploads/%23Curitiba%20Coral-Site-01.jpg)
+![](/uploads/Curitiba%20Coral-Site-comp-06.jpg)
