@@ -4,4 +4,11 @@ body_class: homepage
 layout: homepage
 ---
 
-WEBSITE UNDER CONSTRUCTION 
+JEAN WOJCIECHOWSKI
+
+<a href="{{ site.links.behance }}">Behance</a>
+<a href="{{ site.links.instagram }}">Instagram</a>
+<a href="{{ site.links.tumblr }}">Tumblr</a>
+<a href="{{ site.links.arena }}">Arena</a>
+
+<a href="mailto:woj.jean@gmail.com">EMAIL</a>
