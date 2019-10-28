@@ -4,11 +4,9 @@ position: 1
 project_name: Linsingen Typeface
 project_headline: Inspired by Brazilian tea barrel labels
 project_brief: |
-  Linsingen is a font family inspired by Brazilian tea barrel labels printed with lithography in the beginning of the 20th century. The family consists of three styles - Linsingen Vintage, which preserves the shapes found in the original prints; Linsingen Moderna, a contemporary interpretation of the original shapes, with increased contrast and sharper lines; and Linsingen Stencil. All of the three styles are suited for titles and headlines.
+  Linsingen pays homage to a specific time period in the development of the mate herb culture in the south of Brazil. In the late 1800s and early 1900s companies would cultivate mate herb and ship it using large wood barrels, which lead to the development of a rich graphic design culture and the creation beautiful and diverse labels. Those labels, in particular the ones produced by Linsingen company, were the inspiration for the Linsingen typeface family.
 
-  Linsingen is a font family inspired by Brazilian tea barrel labels printed with lithography in the beginning of the 20th century. The family consists of three styles - Linsingen Vintage, which preserves the shapes found in the original prints; Linsingen Moderna, a contemporary interpretation of the original shapes, with increased contrast and sharper lines; and Linsingen Stencil. All of the three styles are suited for titles and headlines.
-
-  Linsingen is a font family inspired by Brazilian tea barrel labels printed with lithography in the beginning of the 20th century. The family consists of three styles - Linsingen Vintage, which preserves the shapes found in the original prints; Linsingen Moderna, a contemporary interpretation of the original shapes, with increased contrast and sharper lines; and Linsingen Stencil. All of the three styles are suited for titles and headlines.
+  Linsingen consists of three styles - Linsingen Vintage, which resembles a revival process, preserves the shapes and aesthetics found in the original prints; Linsingen Moderna, a contemporary interpretation of the original shapes, with increased contrast and sharper lines; and Linsingen Stencil, a variation of Moderna. All of the three styles are suited for titles and headlines.
 typeface: Linsingen
 layout: project
 ---
