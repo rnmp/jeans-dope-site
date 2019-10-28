@@ -1,6 +1,5 @@
 ---
 title: Linsingen
-published: false
 position: 1
 project_name: Linsingen Typeface
 project_headline: Inspired by Brazilian tea barrel labels
@@ -13,6 +12,21 @@ project_brief: |
 typeface: Linsingen
 layout: project
 ---
+
+![](/uploads/Linsingen%20-%20site-01.jpg)
+![](/uploads/Linsingen%20-%20site-02.jpg)
+![](/uploads/Linsingen%20-%20site-03.jpg)
+![](/uploads/Linsingen%20-%20site-04.jpg)
+![](/uploads/Linsingen%20-%20site-05.jpg)
+![](/uploads/Linsingen%20-%20site-06.jpg)
+![](/uploads/Linsingen%20-%20site-07.jpg)
+![](/uploads/Linsingen%20-%20site-08.jpg)
+![](/uploads/Linsingen%20-%20site-09.jpg)
+![](/uploads/Linsingen%20-%20site-10.jpg)
+![](/uploads/Linsingen%20-%20site-11.jpg)
+![](/uploads/Linsingen%20-%20site-12.jpg)
+![](/uploads/Linsingen%20-%20site-13.jpg)
+![](/uploads/Linsingen%20-%20site-14.jpg)
 
 <div class="font-grid" style="font-family: 'Linsingen Moderna'; font-size: 4vw; font-weight: 300;">
   <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
