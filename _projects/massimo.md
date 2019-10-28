@@ -1,8 +1,8 @@
 ---
 title: Massimo
-published: false
 position: 3
 project_name: Massimo Typeface
+project_headline: A besposke grotesque to reflect the values of Massimo Studio
 project_brief: |-
   Massimo Display and Sans evolved from a need to have a bespoke typeface that reflected the values and aesthetic of the studio, suitable for different applications across a wide range of materials. Early in the project, it was defined that a grotesque typeface would give the simplicity necessary for a versatile font without losing warmth and personality. Furthermore, an extended width would give the visual strength desired.
 
