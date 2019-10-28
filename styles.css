@@ -43,8 +43,6 @@ body > footer a {
   margin-right: 4em;
 }
 
-h1 {}
-
 h1, h2, h3, h4, h5, h6,
 p, ol, ul {
   margin-bottom: 1rem;
@@ -54,9 +52,6 @@ p, ol, ul {
   cursor: pointer;
   transition: color 0.2s ease-in-out;
 }
-.more-link:hover {
-  color: #fff;
-}
 
 a {
   color: inherit;
@@ -64,7 +59,7 @@ a {
   transition: color 0.2s ease-in-out;
 }
 
-.more-link,
+.more-link:hover,
 a:hover {
   color: #f33;
 }
@@ -433,8 +428,9 @@ article > div {
   transition: color 0.1s ease-in-out;
 }
 
-.font-editor-controls .select-options div:hover {
-  color: #f33;
+.font-editor-controls .select-options div {
+  opacity: .3;
+  transition: all .2s ease-in-out;
 }
 
 .font-editor-controls div,
@@ -443,14 +439,15 @@ article > div {
   min-height: 45px;
 }
 .font-editor-controls .multi-select-options div {
+  opacity: .3;
   display: flex;
   justify-content: flex-end;
-  opacity: .3;
   transition: all .2s ease-in-out;
 }
 .font-editor-controls .multi-select-options div.is-active {
   opacity: 1;
 }
+.font-editor-controls .select-options div:hover,
 .font-editor-controls .multi-select-options div:not(.is-active):hover {
   opacity: .5;
 }
