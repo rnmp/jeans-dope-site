@@ -3,13 +3,12 @@ title: Massimo
 published: false
 position: 3
 project_name: Massimo Typeface
-project_headline: Inspired by Brazilian tea barrel labels
-project_brief: Linsingen is a font family inspired by Brazilian tea barrel labels
-  printed with lithography in the beginning of the 20th century. The family consists
-  of three styles - Linsingen Vintage, which preserves the shapes found in the original
-  prints; Linsingen Moderna, a contemporary interpretation of the original shapes,
-  with increased contrast and sharper lines; and Linsingen Stencil. All of the three
-  styles are suited for titles and headlines.
+project_brief: |-
+  Massimo Display and Sans evolved from a need to have a bespoke typeface that reflected the values and aesthetic of the studio, suitable for different applications across a wide range of materials. Early in the project, it was defined that a grotesque typeface would give the simplicity necessary for a versatile font without losing warmth and personality. Furthermore, an extended width would give the visual strength desired.
+
+  Massimo Display is an extended sans-serif inspired by classic grotesque characteristics mixed with deep joins functioning as ink traps that give the glyphs a distinctive personality. It is suitable for headlines and titles.
+
+  After designing Massimo Display, the need for an optical size suitable for small sizes and texts was noticed. Massimo Text has a smaller contrast between thick and thin strokes, which helps readability in text size. Also, the x-height was slightly increased and the width of each character was shortened - creating a more balanced composition when the typeface is set alongside Massimo Display.
 typeface: Massimo
 layout: project
 ---
