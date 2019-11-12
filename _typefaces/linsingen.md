@@ -19,8 +19,7 @@ project_page_type_testers:
   default_text: |-
     FABRICADA E EXPORTADA
     POR EMÍLIO VON LINSINGEN.
-    HERVA-MATTE DE QUALIDADE
-    EXTRA SUPERIOR.
+    HERVA-MATTE DE QUALIDADE SUPERIOR.
 - font_option: Moderna
   default_text: "Em fins do século 19, Curitiba começou a se tornar agitada com a
     proliferação de serrarias e de exímios tanoeiros que montavam barricas para armazenar
