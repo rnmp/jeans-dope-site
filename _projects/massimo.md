@@ -1,6 +1,5 @@
 ---
 title: Massimo
-published: false
 position: 3
 project_name: Massimo Typeface
 project_headline: The values of Massimo Studio
