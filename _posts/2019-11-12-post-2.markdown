@@ -1,0 +1,6 @@
+---
+title: Post 2
+date: 2019-11-12 05:27:00 -02:00
+image: "/uploads/Royal%20-%20Poster%20web-03.jpg"
+---
+
