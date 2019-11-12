@@ -17,6 +17,3 @@ project_cover_image_left: true
 layout: project
 ---
 
-![](/uploads/Royal%20-%20Poster%20Resize-01.jpg)
-![](/uploads/Royal%20-%20Poster%20Resize-02.jpg)
-![](/uploads/Royal%20-%20Poster%20Resize-03.jpg)
