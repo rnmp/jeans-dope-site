@@ -17,6 +17,4 @@ project_cover_image_left: true
 layout: project
 ---
 
-![](/uploads/Royal%20-%20Poster%20Resize-01.jpg)
-![](/uploads/Royal%20-%20Poster%20Resize-02.jpg)
-![](/uploads/Royal%20-%20Poster%20Resize-03.jpg)
+![Royal - Poster web-01.jpg](/uploads/Royal%20-%20Poster%20web-01.jpg)![Royal - Poster web-02.jpg](/uploads/Royal%20-%20Poster%20web-02.jpg)![Royal - Poster web-03.jpg](/uploads/Royal%20-%20Poster%20web-03.jpg)![Royal - Poster web-04.jpg](/uploads/Royal%20-%20Poster%20web-04.jpg)![Royal - Poster web-05.jpg](/uploads/Royal%20-%20Poster%20web-05.jpg)![Royal - Poster web-06.jpg](/uploads/Royal%20-%20Poster%20web-06.jpg)
