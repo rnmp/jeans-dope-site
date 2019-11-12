@@ -1,6 +1,5 @@
 ---
 title: Royal Rage Band
-published: false
 position: 2
 project_name: Royal Rage Band
 project_headline: Inspired by Brazilian tea barrel labels
