@@ -10,10 +10,10 @@ project_brief: |-
   The logo suggests an apex or peak - the highest place one can achieve - formed by several small pieces that represent their different products and areas of activity. The custom letters of the logo convey an exclusive and tech-related look, being precise and strong aswell.
 
   The small diamonds of the logo were used throughout the identity to give rhythm and flexibility to the materials and different shades of blue were used to communicate reliability and to approximate the visual identity to the digital technology world.
-project_creative_field: Branding
+project_creative_field: Visual Identity
 project_client: Technology
 project_headline_homepage: Sophisticated Technology Solutions
-project_cover_image: "/uploads/Emboss-the-boss.jpg"
+project_cover_image: "/uploads/Emboss-the-boss2.jpg"
 ---
 
 ![](/uploads/The%20Boss%20-%20Apresentac%CC%A7a%CC%83o15.jpg)
