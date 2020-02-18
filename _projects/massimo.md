@@ -1,6 +1,6 @@
 ---
 title: Massimo
-position: 3
+position: 5
 project_name: Massimo Typeface
 project_headline: The values of Massimo Studio
 project_brief: |-
