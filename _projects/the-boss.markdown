@@ -4,6 +4,12 @@ date: 2020-02-18 03:33:00 -03:00
 position: 3
 project_name: The Boss
 project_headline: Sophisticated Technology Solutions
+project_brief: |-
+  The Boss is a Brazilian technology company delivering high-end digital solutions across different fields. The company wanted an identity that would reflect sophistication and exclusivity without losing a technological aspect.
+
+  The logo suggests an apex or peak - the highest place one can achieve - formed by several small pieces that represent their different products and areas of activity. The custom letters of the logo convey an exclusive and tech-related look, being precise and strong aswell.
+
+  The small diamonds of the logo were used throughout the identity to give rhythm and flexibility to the materials and different shades of blue were used to communicate reliability and to approximate the visual identity to the digital technology world.
 project_creative_field: Branding
 project_client: Technology
 project_headline_homepage: Sophisticated Technology Solutions
