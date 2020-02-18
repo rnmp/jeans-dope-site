@@ -1,6 +1,6 @@
 ---
 title: Royal Rage Band
-position: 2
+position: 4
 project_name: Royal Rage Band
 project_headline: Family of posters for Brazilian thrash metal band
 project_brief: Royal Rage is a band that has a dark and dystopian aesthetics, using
