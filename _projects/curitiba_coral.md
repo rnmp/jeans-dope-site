@@ -14,7 +14,7 @@ project_brief: |-
 project_creative_field: Visual Identity
 project_client: Christian Choir
 project_headline_homepage: Using colors to reach heaven
-project_cover_image: "/images/curitiba.jpg"
+project_cover_image: "/uploads/Curitiba%20Coral-Site-comp_23.jpg"
 layout: project
 ---
 
