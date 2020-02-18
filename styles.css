@@ -221,6 +221,10 @@ img {
   margin-bottom: 5vh;
 }
 
+article {
+  margin-bottom: 2rem;
+}
+
 article > div {
   margin-bottom: 2rem;
 }
