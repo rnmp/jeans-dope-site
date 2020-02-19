@@ -11,7 +11,7 @@ project_brief: |-
 
   The small diamonds of the logo were used throughout the identity to give rhythm and flexibility to the materials and different shades of blue were used to communicate reliability and to approximate the visual identity to the digital technology world.
 project_creative_field: Visual Identity
-project_client: Technology
+project_client: Technology Company
 project_headline_homepage: Sophisticated Technology Solutions
 project_cover_image: "/uploads/Emboss-the-boss2.jpg"
 ---
