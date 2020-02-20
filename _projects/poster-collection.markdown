@@ -11,11 +11,11 @@ project_headline_homepage: A selection of posters made using varying techniques
 project_cover_image: "/uploads/Poster-Flower01.jpg"
 ---
 
-![Layout-Posters-01.jpg](/uploads/Layout-Posters-01.jpg)
-![Layout-Posters-01.jpg](/uploads/Layout-Posters-02.jpg)
-![Layout-Posters-01.jpg](/uploads/Layout-Posters-03.jpg)
-![Layout-Posters-01.jpg](/uploads/Layout-Posters-04.jpg)
-![Layout-Posters-01.jpg](/uploads/Layout-Posters-05.jpg)
-![Layout-Posters-01.jpg](/uploads/Layout-Posters-06.jpg)
-![Layout-Posters-01.jpg](/uploads/Layout-Posters-07.jpg)
-![Layout-Posters-01.jpg](/uploads/Layout-Posters-08.jpg)
+![](/uploads/Layout-Posters-01.jpg)
+![](/uploads/Layout-Posters-02.jpg)
+![](/uploads/Layout-Posters-03.jpg)
+![](/uploads/Layout-Posters-04.jpg)
+![](/uploads/Layout-Posters-05.jpg)
+![](/uploads/Layout-Posters-06.jpg)
+![](/uploads/Layout-Posters-07.jpg)
+![](/uploads/Layout-Posters-08.jpg)
