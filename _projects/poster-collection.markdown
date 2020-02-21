@@ -17,5 +17,4 @@ project_cover_image: "/uploads/Poster-Flower01.jpg"
 ![](/uploads/Layout-Posters-04.jpg)
 ![](/uploads/Layout-Posters-05.jpg)
 ![](/uploads/Layout-Posters-06.jpg)
-![](/uploads/Layout-Posters-07.jpg)
 ![](/uploads/Layout-Posters-08.jpg)
