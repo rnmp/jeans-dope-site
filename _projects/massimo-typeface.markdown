@@ -13,7 +13,7 @@ project_brief: |-
 project_creative_field: Type Design
 project_client: Branding Studio
 project_headline_homepage: The values of Massimo Studio
-project_cover_image: "/images/massimo/Massimo%20-%20Typeface%2017-07-18-26.png"
+project_cover_image: "/images/massimo/Massimo%20-%20Typeface%2017-07-18-17.png"
 ---
 
 ![](/images/massimo/Massimo%20-%20Typeface%2017-07-18-.png)
