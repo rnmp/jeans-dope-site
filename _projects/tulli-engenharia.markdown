@@ -3,7 +3,7 @@ title: Tulli Engenharia
 date: 2020-02-18 00:43:00 -03:00
 position: 5
 project_name: Tulli Engenharia
-project_headline: Minimalist and concise aesthetics
+project_headline: Concise and modular aesthetics
 project_brief: "Tulli is an engineering and interior design company focused on high-end
   housing projects. For the visual identity, it was sought to create a firm, minimalist
   and concise aesthetics that would reflect the way the company manages and executes
@@ -13,7 +13,7 @@ project_brief: "Tulli is an engineering and interior design company focused on h
   does not get monotonous."
 project_creative_field: Branding
 project_client: Engineering and Architecture
-project_headline_homepage: Minimalist and concise aesthetics
+project_headline_homepage: Concise and modular aesthetics
 project_cover_image: "/uploads/2-crop-v2.jpg"
 ---
 
