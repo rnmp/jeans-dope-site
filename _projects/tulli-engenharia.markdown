@@ -20,5 +20,4 @@ project_cover_image: "/uploads/2-crop-v2.jpg"
 ![](/uploads/Massimo%20-%20Apresentac%CC%A7a%CC%83o%20Id.%20Visual%20Tulli%2017-04-195.jpg)
 ![](/uploads/Comp%201.gif)
 ![](/uploads/Massimo%20-%20Apresentac%CC%A7a%CC%83o%20Id.%20Visual%20Tulli%2017-04-1917.jpg)
-<iframe src="https://player.vimeo.com/video/353786782" width="640" height="386" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/353786782">Fonte Tulli</a> from <a href="https://vimeo.com/user10249525">Jean Wojciechowski</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<div style="padding:60.3% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/353786782" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
