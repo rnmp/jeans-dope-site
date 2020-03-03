@@ -28,4 +28,4 @@ project_cover_image: "/uploads/2-crop-v2.jpg"
 ![Pasta.jpg](/uploads/Pasta.jpg)
 ![Massimo---Apresentação-Id.-Visual-Tulli-17-04-1924small.jpg](/uploads/Massimo---Apresentac%CC%A7a%CC%83o-Id.-Visual-Tulli-17-04-1924small.jpg)
 ![Massimo - Apresentação Id. Visual Tulli 17-04-1926.jpg](/uploads/Massimo%20-%20Apresentac%CC%A7a%CC%83o%20Id.%20Visual%20Tulli%2017-04-1926.jpg)
-![Poster 02c.jpg](/uploads/Poster%2002c.jpg)
+![Poster 02c.jpg](/uploads/Poster%2002c.jpg)![Poster-03.jpg](/uploads/Poster-03.jpg)![Site-iPad.jpg](/uploads/Site-iPad.jpg)
