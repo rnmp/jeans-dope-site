@@ -1,7 +1,7 @@
 ---
-title: Massimo
-published: false
-position: 7
+title: Massimo Typeface
+date: 2020-03-02 23:06:00 -03:00
+position: 6
 project_name: Massimo Typeface
 project_headline: The values of Massimo Studio
 project_brief: |-
@@ -10,8 +10,10 @@ project_brief: |-
   Massimo Display is an extended sans-serif inspired by classic grotesque characteristics mixed with deep joins functioning as ink traps that give the glyphs a distinctive personality. It is suitable for headlines and titles.
 
   After designing Massimo Display, the need for an optical size suitable for small sizes and texts was noticed. Massimo Text has a smaller contrast between thick and thin strokes, which helps readability in text size. Also, the x-height was slightly increased and the width of each character was shortened - creating a more balanced composition when the typeface is set alongside Massimo Display.
-typeface: Massimo
-layout: project
+project_creative_field: Type Design
+project_client: Branding Studio
+project_headline_homepage: The values of Massimo Studio
+project_cover_image: "/images/massimo/Massimo%20-%20Typeface%2017-07-18-26.png"
 ---
 
 ![](/images/massimo/Massimo%20-%20Typeface%2017-07-18-.png)
