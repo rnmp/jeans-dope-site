@@ -1,0 +1,6 @@
+---
+title: Post 6
+date: 2020-03-03 02:26:00 -03:00
+image: "/uploads/instagram%20b2.jpg"
+---
+
