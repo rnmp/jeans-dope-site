@@ -24,7 +24,6 @@ project_cover_image: "/uploads/Emboss-the-boss2.jpg"
 ![](/uploads/The%20Boss%20-%20Apresentac%CC%A7a%CC%83o29.jpg)
 ![](/uploads/The%20Boss%20-%20Apresentac%CC%A7a%CC%83o31.jpg)
 ![](/uploads/The%20Boss%20-%20Apresentac%CC%A7a%CC%83o32.jpg)
-![](/uploads/The%20Boss%20-%20Apresentac%CC%A7a%CC%83o33.jpg)
 ![](/uploads/The%20Boss%20-%20Apresentac%CC%A7a%CC%83o34.jpg)
 ![](/uploads/The%20Boss%20-%20Apresentac%CC%A7a%CC%83o37.jpg)
 ![](/uploads/The%20Boss%20-%20Apresentac%CC%A7a%CC%83o38.jpg)
