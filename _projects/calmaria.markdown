@@ -1,14 +1,14 @@
 ---
-title: Calmaria
+title: Estúdio Calmaria
 date: 2020-03-12 01:12:00 -03:00
 position: 3
-project_name: 'Calmaria '
-project_headline: A flower blooms
+project_name: 'Estúdio Calmaria '
+project_headline: Peaceful and calm streetwear
 project_brief: "Calmaria is a streetwear brand focusing on minimal and calm aesthetics.
   A tribute to tranquility and simplicity, good and peaceful moments. The pieces translate
   a desire to find what\nis true and relevant, letting creativity flourish like a
   flower \n in fertile soil."
-project_creative_field: Graphic Design/ Fashion
+project_creative_field: Graphic Design, Fashion
 project_client: Streetwear
 project_headline_homepage: A flower blooms
 project_cover_image: "/uploads/Artboard%202.jpg"
