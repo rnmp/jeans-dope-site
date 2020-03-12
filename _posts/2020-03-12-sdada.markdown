@@ -1,0 +1,6 @@
+---
+title: sdada
+date: 2020-03-12 05:01:00 -03:00
+image: "/uploads/The%20Typists%202-01.jpg"
+---
+
