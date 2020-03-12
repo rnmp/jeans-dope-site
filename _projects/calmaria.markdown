@@ -1,6 +1,7 @@
 ---
 title: Calmaria
 date: 2020-03-12 01:12:00 -03:00
+position: 3
 project_name: 'Calmaria '
 project_headline: A flower blooms
 project_brief: "Calmaria is a streetwear brand focusing on minimal and calm aesthetics.
