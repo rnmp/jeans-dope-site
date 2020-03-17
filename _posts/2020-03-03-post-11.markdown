@@ -1,6 +1,0 @@
----
-title: Post 11
-date: 2020-03-03 02:35:00 -03:00
-image: "/uploads/DSC_0027-copy.jpg"
----
-
