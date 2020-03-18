@@ -14,7 +14,7 @@ project_creative_field: Type Design
 project_client: Branding Studio
 project_headline_homepage: The values of Massimo Studio
 project_cover_image: "/uploads/massimo%20typeface%20cover-01.jpg"
-project_cover_image_alt: true
+project_cover_image_alt: false
 ---
 
 ![](/images/massimo/Massimo%20-%20Typeface%2017-07-18-.png)
