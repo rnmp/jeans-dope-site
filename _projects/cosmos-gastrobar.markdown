@@ -11,6 +11,7 @@ project_creative_field: Branding
 project_client: Cocktail Bar
 project_headline_homepage: Explore the universe
 project_cover_image: "/uploads/Cosmos%20Port5.jpg"
+project_cover_image_alt: true
 ---
 
 ![](/uploads/Cosmos%20Port1.jpg)

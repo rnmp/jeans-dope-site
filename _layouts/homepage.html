@@ -24,8 +24,10 @@ layout: base
     </article>
   {% else %}
     {% assign class_name = "project-thumbnail" %}
-    {% if project.project_cover_image_left %}
+    {% if project.project_cover_image_alt %}
       {% assign class_name_alt = "project-thumbnail-alt" %}
+    {% else if %}
+      {% assign class_name_alt = "" %}
     {% endif %}
     <div class="project-thumb d-flex">
       <div class="w-100 align-self-center">

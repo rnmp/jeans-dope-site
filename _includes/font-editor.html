@@ -1,5 +1,15 @@
 {% assign typeface = include.typeface %}
 {% assign opentype_features = typeface.opentype_features | join: ', ' %}
+<style>
+  {% for font_option in typeface.font_options %}
+    @font-face {
+      font-family: {{  font_option[1].family  }};
+      src: url('{{ font_option[1].font_file }}') format('woff');
+      font-weight: {{ font_option[1].css_font_weight }};
+      font-style: {{ font_option[1].css_font_style }};
+    }
+  {% endfor %}
+</style>
 <div
   class="font-editor"
   data-typeface-name="{{ typeface.title }}"
