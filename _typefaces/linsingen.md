@@ -4,19 +4,19 @@ font_options:
   Moderna:
     family: Linsingen Moderna
     weight: Thin
-    font_file: "/fonts/linsingen/LinsingenModerna-Regular.woff"
+    font_file: "/uploads/LinsingenModerna-Regular.woff"
     css_font_weight: normal
     css_font_style: normal
   Stencil:
     family: Linsingen Stencil
     weight: Thin
-    font_file: "/fonts/linsingen/LinsingenStencil-Regular.woff"
+    font_file: "/uploads/LinsingenStencil-Regular.woff"
     css_font_weight: normal
     css_font_style: normal
   Vintage:
     family: Linsingen Vintage
     weight: Thin
-    font_file: "/fonts/linsingen/LinsingenVintage-Regular.woff"
+    font_file: "/uploads/LinsingenVintage-Regular.woff"
     css_font_weight: normal
     css_font_style: normal
 homepage_type_tester:
