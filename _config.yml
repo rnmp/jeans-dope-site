@@ -20,7 +20,7 @@ defaults:
     path: ''
     type: posts
   values:
-    image:
+    image: 
 - scope:
     path: ''
     type: projects
@@ -31,16 +31,16 @@ defaults:
     project_brief: Brief
     project_creative_field: Creative Field
     project_client: Client
-    project_headline_homepage:
-    project_cover_image:
-    typeface:
+    project_headline_homepage: 
+    project_cover_image: 
+    typeface: 
     layout: project
 - scope:
     path: ''
     type: typefaces
   values:
     title: Typeface Name
-    font_options:
+    font_options: 
     homepage_type_tester:
       font_option: Option Name
       default_text: |-
@@ -52,14 +52,14 @@ defaults:
         Text to show in
         Project Page
     opentype_features:
-    -
+    - 
 email: woj.jean@gmail.com
 description: Hi, my name is Jean Wojciechowski, I’m a Brazilian graphic designer with
   special interest in visual branding and type design.
-baseurl:
-url:
-twitter_username:
-github_username:
+baseurl: 
+url: 
+twitter_username: 
+github_username: 
 links:
   arena: https://www.are.na/jean-wojciechowski
   behance: https://www.behance.net/jeanwoj
