@@ -252,28 +252,6 @@ article > div {
   left: 0;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
-}
-
-@font-face {
-  font-family: 'Linsingen Vintage';
-  src: url('/fonts/linsingen/LinsingenVintage-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Linsingen Moderna';
-  src: url('/fonts/linsingen/LinsingenModerna-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Linsingen Stencil';
-  src: url('/fonts/linsingen/LinsingenStencil-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
 }
 
 .break {
