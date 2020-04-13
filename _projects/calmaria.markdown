@@ -1,7 +1,7 @@
 ---
 title: Estúdio Calmaria
 date: 2020-03-12 01:12:00 -03:00
-position: 3
+position: 7
 project_name: 'Estúdio Calmaria '
 project_headline: Peaceful and calm streetwear
 project_brief: "Calmaria is a streetwear brand focusing on minimal and calm aesthetics.
