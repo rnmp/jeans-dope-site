@@ -1,7 +1,7 @@
 ---
 title: Poster Collection
 date: 2020-02-20 04:15:00 -03:00
-position: 1
+position: 2
 project_name: Poster Collection
 project_headline: 2014-2019
 project_brief: A selection of posters made throughout the years using varying techniques.
