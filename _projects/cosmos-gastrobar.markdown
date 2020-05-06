@@ -1,7 +1,7 @@
 ---
 title: Cosmos Gastrobar
 date: 2020-03-12 03:42:00 -03:00
-position: 3
+position: 2
 project_name: Cosmos Gastrobar
 project_headline: Explore the universe
 project_brief: A established local bar known for its cocktails, Cosmos looked for
