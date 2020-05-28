@@ -1,7 +1,7 @@
 ---
 title: Massimo Typeface
 date: 2020-03-02 23:06:00 -03:00
-position: 5
+position: 6
 project_name: Massimo Typeface
 project_headline: The values of Massimo Studio
 project_brief: |-
