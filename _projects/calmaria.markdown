@@ -14,4 +14,4 @@ project_headline_homepage: A flower blooms
 project_cover_image: "/uploads/Artboard%202.jpg"
 ---
 
-![Artboard 1-100.png](/uploads/Artboard%201-100.jpg)![Artboard 2 - 100.jpg](/uploads/Artboard%202%20-%20100.jpg)![Artboard 5-100.jpg](/uploads/Artboard%205-100.jpg)![Artboard 7-100.jpg](/uploads/Artboard%207-100.jpg)![Artboard 8-100.jpg]
+![Artboard 1-100.png](/uploads/Artboard%201-100.png)(/uploads/Artboard%201-100.jpg)![Artboard 2 - 100.jpg](/uploads/Artboard%202%20-%20100.jpg)![Artboard 5-100.jpg](/uploads/Artboard%205-100.jpg)![Artboard 7-100.jpg](/uploads/Artboard%207-100.jpg)![Artboard 8-100.jpg]
