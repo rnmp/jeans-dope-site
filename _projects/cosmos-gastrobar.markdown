@@ -4,7 +4,7 @@ date: 2020-03-12 03:42:00 -03:00
 position: 2
 project_name: Cosmos Gastrobar
 project_headline: Explore the universe
-project_brief: A established local bar known for its cocktails, Cosmos looked for
+project_brief: An established local bar known for its cocktails, Cosmos looked for
   a more cohesive visual identity that would explore the themes of space exploration
   and discovery, keeping it elegant but also exciting.
 project_creative_field: Branding
